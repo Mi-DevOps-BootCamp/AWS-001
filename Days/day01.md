@@ -271,7 +271,9 @@ Fin.
 
 
 
-
+Si has llegado hasta aquí, sabrás si es aquí donde quieres estar o no.
+Nos vemos en el tercer día.
+[Day 2](day02.md).  
 
 
 
