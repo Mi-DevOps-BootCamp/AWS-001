@@ -24,6 +24,17 @@
 --------
 
 
+¿Qué tecnología vamos a usar para virtualizar?
+
+Virtual Box es una tecnología de
+virtualización multiplataforma. Lo que
+nos permitirá crear máquinas virtuales
+indistintamente del sistema operativo
+que estemos utilizando.
+
+---
+
+
 
 
 
