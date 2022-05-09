@@ -267,5 +267,9 @@ Fin.
 
 
 
+#
+#
 
-If you made it this far then you will know if this is where you want to be or not. See you on [Day 3](day03.md).  
+Si has llegado hasta aquí, sabrás si es aquí donde quieres estar o no.
+Nos vemos en el tercer día.
+[Day 3](day03.md).  
