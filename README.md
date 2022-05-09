@@ -17,14 +17,11 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 ## Progress 
 
 - [✔️] ♾️ 1 > [Introduction](Days/day01.md)
-
-### What is and why do we use DevOps
-
-- [✔️] ♾️ 2 > [Responsibilities of a DevOps Engineer](Days/day02.md)
-- [✔️] ♾️ 3 > [DevOps Lifecycle - Application Focused](Days/day03.md)
-- [✔️] ♾️ 4 > [DevOps & Agile](Days/day04.md)
-- [✔️] ♾️ 5 > [Plan > Code > Build > Testing > Release > Deploy > Operate > Monitor >](Days/day05.md)
-- [✔️] ♾️ 6 > [DevOps - The real stories](Days/day06.md)
+- [✔️] ♾️ 2 > [AResponsibilities of a DevOps Engineer](Days/day02.md)
+- [✔️] ♾️ 3 > [B](Days/day03.md)
+- [✔️] ♾️ 4 > [C](Days/day04.md)
+- [✔️] ♾️ 5 > [D](Days/day05.md)
+- [✔️] ♾️ 6 > [E](Days/day06.md)
 
 ### Learning a Programming Language
 
