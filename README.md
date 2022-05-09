@@ -17,7 +17,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 ## Progress 
 
 - [✔️] ♾️ 1 > [Introduction](Days/day01.md)
-- [✔️] ♾️ 2 > [AResponsibilities of a DevOps Engineer](Days/day02.md)
+- [✔️] ♾️ 2 > [A](Days/day02.md)
 - [✔️] ♾️ 3 > [B](Days/day03.md)
 - [✔️] ♾️ 4 > [C](Days/day04.md)
 - [✔️] ♾️ 5 > [D](Days/day05.md)
