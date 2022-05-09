@@ -6,10 +6,32 @@
 ***Organización del bootcamp***
 
 ***● Fase 1: SysAdmin***
+
 ***● Fase 2: Cloud Computing***
+
 ***● Fase 3: DevOps***
+
 ***● Fase 4: DevSecOps***
+
 ***● Fase 5: Empleabilidad***
+
+
+
+------+
+**---
+--------
+*----------
+--------
+
+
+
+
+
+
+
+
+
+
 
 
 ***CREACION y SECURACION de tu CUENTA***
