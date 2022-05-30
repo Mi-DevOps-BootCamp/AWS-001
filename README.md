@@ -14,24 +14,21 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
  
  
  
-## Progress 
+## Desafios 
 
 - [✔️] ♾️ 1 > [Introduction](Days/day01.md)
-- [✔️] ♾️ 2 > [A](Days/day02.md)
-- [✔️] ♾️ 3 > [B](Days/day03.md)
-- [✔️] ♾️ 4 > [C](Days/day04.md)
-- [✔️] ♾️ 5 > [D](Days/day05.md)
-- [✔️] ♾️ 6 > [E](Days/day06.md)
-
-### Learning a Programming Language
-
-- [✔️] ⌨️ 7 > [The Big Picture: DevOps & Learning a Programming Language](Days/day07.md)
-- [✔️] ⌨️ 8 > [Setting up your DevOps environment for Go & Hello World](Days/day08.md)
-- [✔️] ⌨️ 9 > [Let's explain the Hello World code](Days/day09.md)
-- [✔️] ⌨️ 10 > [The Go Workspace & Compiling & running code](Days/day10.md)
-- [✔️] ⌨️ 11 > [Variables, Constants & Data Types](Days/day11.md)
-- [✔️] ⌨️ 12 > [Getting user input with Pointers and a finished program](Days/day12.md)
-- [✔️] ⌨️ 13 > [Tweet your progress with our new App](Days/day13.md)
+- [✔️] ♾️ 2 > [01   Desafio 1 AWS - Semana 1 - Creacion de Cuenta - MFA - Alarma de Gastos](Days/day02.md)
+- [✔️] ♾️ 3 > [02   Desafio 2 - Semana 1 Crea tu Maquina Virtual en Compute Engine e Instala Apache](Days/day03.md)
+- [✔️] ♾️ 4 > [03   Desafio Azure - Desafio 1 Semana 1 - Maquinas Virtuales en Azure](Days/day04.md)
+- [✔️] ♾️ 5 > [04   Desafio 2 AWS - Semana 1 - Sitio Estatico en AWS](Days/day05.md)
+- [✔️] ♾️ 6 > [05   Desafio Cloud Storage - Crear Bucket](Days/day06.md)
+- [✔️] ♾️ 7 > [06   Desafio AWS - Semana 2 - Desafio 1 - Creacion Instancia EC2 Con User Script](Days/day07.md)
+- [✔️] ♾️ 8 > [07   Desafio AWS - Desafio 2 Semana 2 - VPC - SG](Days/day08.md)
+- [✔️] ♾️ 9 > [08   Desafio Creacion de VPC - GCP](Days/day09.md)
+- [✔️] ♾️ 10 > [09   Desafio 3 - Semana 2  - Bases de Datos con RDS en AWS](Days/day10.md)
+- [✔️] ♾️ 11 > [10   Desafio Final  - Trabajo Integrador Google Cloud Platform](Days/day11.md)
+- [✔️] ♾️ 12 > [Desafio Pre Final  - Creando Clusters en GKE - GCP](Days/day12.md)
+- [✔️] ♾️ 13 > [0](Days/day13.md)
 
 ### Knowing Linux Basics
 
