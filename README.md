@@ -21,7 +21,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ♾️ 4 > [03   Maquinas Virtuales en Azure - Desafio Azure - ( Desafio 1 - Semana 1)  ](Days/day04.md)
 - [✔️] ♾️ 5 > [04   Sitio Estatico en AWS -  ( Desafio 2 AWS - Semana 1)  ](Days/day05.md)
 - [✔️] ♾️ 6 > [05   Desafio Cloud Storage - Crear Bucket](Days/day06.md)
-- [✔️] ♾️ 7 > [06   Desafio AWS - Semana 2 - Desafio 1 - Creacion Instancia EC2 Con User Script](Days/day07.md)
+- [✔️] ♾️ 7 > [06   Creacion Instancia EC2 Con User Script -  ( Desafio AWS - Semana 2 - Desafio 1 ) ](Days/day07.md)
 - [✔️] ♾️ 8 > [07   Desafio AWS - Desafio 2 Semana 2 - VPC - SG](Days/day08.md)
 - [✔️] ♾️ 9 > [08   Desafio Creacion de VPC - GCP](Days/day09.md)
 - [✔️] ♾️ 10 > [09   Desafio 3 - Semana 2  - Bases de Datos con RDS en AWS](Days/day10.md)
