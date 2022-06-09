@@ -74,7 +74,7 @@ Profesores Gino Rojo – Gastón Baravalle
 
 ![image](https://user-images.githubusercontent.com/105083569/172956836-d24f56e6-c57b-4e06-bd3b-159971507448.png)
 
-Vamos a configurar el servidor APACHE
+## Vamos a configurar el servidor APACHE
 
 ![image](https://user-images.githubusercontent.com/105083569/172956878-d69d71cf-84d8-4bd7-ac80-aecbaa6d0d1f.png)
 
@@ -90,13 +90,44 @@ Vamos a configurar el servidor APACHE
 
 ![image](https://user-images.githubusercontent.com/105083569/172956955-0f80a794-781e-4c77-8d41-1e98fe60226e.png)
 
+Y veremos la siguiente pantalla
+
+![image](https://user-images.githubusercontent.com/105083569/172957298-14afda59-85b3-44b7-8323-b4414a1dbc14.png)
+
+Copiamos la IP externa , y verificamos si esta activo
+
+![image](https://user-images.githubusercontent.com/105083569/172957325-45aa45c1-e4d4-4d51-9de9-e638a3702d57.png)
+
+#
+![image](https://user-images.githubusercontent.com/105083569/172957351-743ba3f5-cb3f-433a-9bb3-6b4163efd55e.png)
 
 
+Y el resultado que obtenemos es el siguiente
+![image](https://user-images.githubusercontent.com/105083569/172957384-0c024a3e-6515-4034-8a07-ce6900288d1b.png)
 
+PRUEBA DEL SERVIDOR
 
+![image](https://user-images.githubusercontent.com/105083569/172957430-c7a9012c-c816-4c56-8153-1765927f879b.png)
 
+Hacemos una prueba con el numero 7 y controlamos
 
+![image](https://user-images.githubusercontent.com/105083569/172957473-3f15c352-ce25-4cf9-b590-eda2a8bf578a.png)
 
+Todo bien, seguimos
+
+![image](https://user-images.githubusercontent.com/105083569/172957510-abe0d0af-4cda-4176-9f36-59c4a29cef70.png)
+
+Y tenemos los resultado esperados .
+
+Para finalizar cerramos y damos de baja todo lo creado .
+
+![image](https://user-images.githubusercontent.com/105083569/172957549-eed2d790-a251-4dca-b253-a69ba3802776.png)
+
+Aquí recibimos la confirmacion de la baja. 
+
+![image](https://user-images.githubusercontent.com/105083569/172957564-499d1220-8486-4f23-8919-1f70393dec8b.png)
+
+Fin.
 
 
 #
