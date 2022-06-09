@@ -59,6 +59,106 @@ Ya estamos pronto a finalizar, Máquina virtual creada
 
 ![image](https://user-images.githubusercontent.com/105083569/172958696-481311cd-eaa1-4ea9-afd1-20a031891777.png)
 
+Se están implementando los cambios, paciencia
+
+![image](https://user-images.githubusercontent.com/105083569/172958852-63be8e9a-228f-49a2-bb9c-91d108a6edbe.png)
+
+Cambios implementados, listo.
+
+![image](https://user-images.githubusercontent.com/105083569/172958862-153823b4-8a4f-4811-8cd1-c6bcd9b28c9e.png)
+
+Una vez finalizada la implementación, seleccionamos “Ir al recurso”
+
+Fin
+
+
+#
+#
+#
+
+# Ejercicio Conexión a la máquina virtual
+
+Vamos a crear una conexión a Escritorio remoto en la máquina virtual,  lo que nos permitirá conectarnos a la máquina virtual desde un equipo  de Windows.
+
+En la imagen siguiente seleccionamos Conectar RDP.
+
+Y descargamos el archivo RDP
+
+![image](https://user-images.githubusercontent.com/105083569/172958960-65654858-e304-4c55-90c5-0954839680f5.png)
+
+el archivo RDP una vez descargado veremos la siguiente imagen;
+
+![image](https://user-images.githubusercontent.com/105083569/172958973-13793b48-d49f-410d-a9f0-92284239cdcb.png)
+
+Hacemos doble clic en el archivo y nos aparecerá esta ventana, damos “Conectar” y seguimos
+
+Al abrir el archivo veremos “ Seguridad de Windows” en el margen superior izquierdo .
+
+Seleccionamos “Más opciones”  y, después, “Usar otra cuenta”.  Allí escribimos  “Nombre de usuario” como localhostusername,  escribimos la contraseña que creamos para la máquina virtual y, luego, hacemos clic en Aceptar.
+
+![image](https://user-images.githubusercontent.com/105083569/172959021-4ec0bafc-5e38-4434-98b0-fb5116b78da3.png)
+
+Al conectarse podremos ver la siguiente imagen .
+![image](https://user-images.githubusercontent.com/105083569/172959046-bf4f51b6-2936-49b0-aa8c-76c92d69621e.png)
+#
+
+![image](https://user-images.githubusercontent.com/105083569/172959058-bea7c605-b01a-4983-b83a-663de9bf7776.png)
+
+Fin
+
+
+#
+#
+#
+
+# PAGINA PRINCIPAL DE  IIS
+
+
+Vamos al portal de Azure, seleccionamos  la máquina virtual que creamos, en la información general de la máquina virtual,  mantenemos  el mouse sobre la dirección IP para mostrar el texto “Copiar al Portapapeles”.
+
+Copiamos la dirección IP y la pegamos en una nueva pestaña de nuestro explorador.
+
+Se abrirá la página de bienvenida de IIS predeterminada, y debería tener el siguiente aspecto .
+
+Pero lamentablemente eso no paso.
+
+Usamos dos exploradores diferentes, Google Chrome y Microsoft Edge, con resultado negativo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
