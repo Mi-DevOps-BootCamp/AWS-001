@@ -137,4 +137,4 @@ Para finalizar cerramos y damos de baja todo lo creado .
 #
 
 
-If you made it this far then you will know if this is where you want to be or not. See you on [Day 4](day04.md).  
+Te veo en el [Dia 4](day04.md).  
