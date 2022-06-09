@@ -123,49 +123,87 @@ Se abrirá la página de bienvenida de IIS predeterminada, y debería tener el s
 Pero lamentablemente eso no paso.
 
 Usamos dos exploradores diferentes, Google Chrome y Microsoft Edge, con resultado negativo.
+![image](https://user-images.githubusercontent.com/105083569/172959207-3b744c7d-32ee-45f8-aa62-55334b7034d1.png)
 
 
+Seguimos buscando soluciones, posible problema Windows no tenga activado la compatibilidad con “IIS 6”.
+
+Vamos para allá  ➽ Panel de Control  ➽ Programas y Características ➽ Activar o desactivar las características de Windows ➽ Controlamos.
+
+![image](https://user-images.githubusercontent.com/105083569/172959236-f2ac16e5-5781-4019-8deb-1ff251da7475.png)
+
+Activamos las pestañas como se ven en la pantalla y veremos a continuación al aceptar .
+
+![image](https://user-images.githubusercontent.com/105083569/172959252-955a9319-da64-4793-911f-bc224d97da1c.png)
+
+Para controlar que este activado, escribimos en nuestro explorador “localhost” y deberíamos recibir como respuesta la siguiente imagen si esta todo correctamente realizado.
+
+![image](https://user-images.githubusercontent.com/105083569/172959273-4731f7da-ce14-4c1f-83b0-d29b5ddf7ec9.png)
+
+Probamos de nuevo
+![image](https://user-images.githubusercontent.com/105083569/172959290-f2dd9260-34f9-4785-bcc6-3053d4ae052a.png)
+Y el resultado sigue siendo negativo.
+
+Buscamos otro camino, creamos una IP publica dentro de AZURE y se la añadimos a nuestra VM
+
+![image](https://user-images.githubusercontent.com/105083569/172959312-812a5986-a190-4fed-945f-7440b5b6c8f6.png)
+
+![image](https://user-images.githubusercontent.com/105083569/172959320-df8316ee-410d-4fb3-822c-d1139d3180b0.png)
+Probamos haciendo PING desde CMD y negativo
+![image](https://user-images.githubusercontent.com/105083569/172959335-11fb96a0-2625-4710-80ac-d53d609d0fcb.png)
 
 
+Seguimo buscando soluciones.  Nos vamos a este blog, donde nos indica …
+![image](https://user-images.githubusercontent.com/105083569/172959366-236a1b31-d8d4-4564-af24-05c71631d124.png)
+
+Que si tenemos resultados negativos con el PING, podemos utilizar métodos alternativos, como usar la POWERSHELL con el comando “ Test-NetConnection”.
+Probamos.
+Resultado negativo.
+Seguimos averiguando.
+
+![image](https://user-images.githubusercontent.com/105083569/172959387-a91239d8-0c4c-4c8b-aa25-1b51bdb2324f.png)
+
+Vemos de actualizar POWERSHELL y seguimos ,
+
+![image](https://user-images.githubusercontent.com/105083569/172959408-07b05f09-abb1-4ef0-8073-d21031a47a62.png)
+
+![image](https://user-images.githubusercontent.com/105083569/172959416-4b6261f2-1daa-4bab-a030-d2b6cdc3a169.png)
+
+![image](https://user-images.githubusercontent.com/105083569/172959426-1c989e8d-e545-40dc-aa48-bf10828583f4.png)
+
+Terminamos de instalarla y probamos
+![image](https://user-images.githubusercontent.com/105083569/172959442-5e5df665-66fe-4402-bf20-58ed9f6b5064.png)
+
+Resultado negativo, no reconoce el comando.
+
+Seguimos buscando soluciones, otra posibilidad es hacer Ping con PSPing de Sysinternals Tools, es una de las herramientas incluidas en las PsTools .
+Descargamos el archivo PSPing.exe y lo guardamos en Equipo , Disco local C, Windows, System32 , como muestra la imagen .
+![image](https://user-images.githubusercontent.com/105083569/172959480-511a9299-d7ae-4229-9451-e78d7e7dbf32.png)
+
+Ejecutamos CMD como administrador
+![image](https://user-images.githubusercontent.com/105083569/172959510-da15d6be-3359-44a8-a95b-074f191c3130.png)
+
+y probamos nuevamente, primero con un ping que conocemos ,
+
+![image](https://user-images.githubusercontent.com/105083569/172959539-955141f1-ebd9-4af1-bdf6-aaccbefa59e7.png)
 
 
+Y después con el de la VM, como podemos ver en la siguiente imagen
 
+![image](https://user-images.githubusercontent.com/105083569/172959556-efa5cb7c-beb4-41b2-a019-71d7284601b4.png)
 
+Y el resultado fue
+![image](https://user-images.githubusercontent.com/105083569/172959578-8243621d-342e-41c5-b34e-eb8eb6c6e5a9.png)
 
+Resultado negativo.
 
+Seguimos investigando,  ampliaremos más adelante ya que esta última etapa del desafío nos está consumiendo demasiado tiempo en un error que no hemos podido resolver hasta ahora.
 
+Hoy jueves temprano,  quisimos empezar en la mañana con pruebas para estar preparados y poder tener desplegada y lista una VM para la reunión con Gastón Baravalle,  para tratar de buscar soluciones al problema.  Lamentablemente eso no ocurrió,  recién a la tarde se nos habilito el patrocinio de parte de Microsoft gracias a la gentileza de Paola.
 
+Jueves 22:30hs    -26.05.2022}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+PS: Quedo en volver a probar más adelante y rever donde está el error, por ahora culmino aquí para no seguir retrasándome. 
 
 
 #
