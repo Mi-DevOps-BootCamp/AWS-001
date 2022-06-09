@@ -4,8 +4,8 @@
 
 ## CREA TÚ MAQUINA VIRTUAL
 
-Desafío 2 GCP - Semana 1 
-Crea tu Máquina Virtual en Compute Engine E Instala Apache
+## Desafío 2 GCP - Semana 1 
+## Crea tu Máquina Virtual en Compute Engine E Instala Apache
 
 Alumno: Marcelo Piroddi #
 Profesores Gino Rojo – Gastón Baravalle
@@ -109,7 +109,7 @@ Profesores Gino Rojo – Gastón Baravalle
 
 ![image](https://user-images.githubusercontent.com/105083569/172957430-c7a9012c-c816-4c56-8153-1765927f879b.png)
 
-Hacemos una prueba con el numero 7 y controlamos
+## Hacemos una prueba con el numero 7 y controlamos
 
 ![image](https://user-images.githubusercontent.com/105083569/172957473-3f15c352-ce25-4cf9-b590-eda2a8bf578a.png)
 
