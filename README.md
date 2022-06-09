@@ -16,8 +16,8 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 ## Desafios 
 
 - [✔️] ♾️ 1 > [Introduction](Days/day01.md)
-- [✔️] ♾️ 2 > [01   Desafio 1 AWS - Semana 1 - Creacion de Cuenta - MFA - Alarma de Gastos](Days/day02.md)
-- [✔️] ♾️ 3 > [02   Desafio 2 - Semana 1 Crea tu Maquina Virtual en Compute Engine e Instala Apache](Days/day03.md)
+- [✔️] ♾️ 2 > [01   Creacion de Cuenta - MFA - Alarma de Gastos -    Desafio 1 AWS - Semana 1 ](Days/day02.md)
+- [✔️] ♾️ 3 > [02   Crea tu Maquina Virtual en Compute Engine e Instala Apache - Desafio 2 - Semana 1  ](Days/day03.md)
 - [✔️] ♾️ 4 > [03   Desafio Azure - Desafio 1 Semana 1 - Maquinas Virtuales en Azure](Days/day04.md)
 - [✔️] ♾️ 5 > [04   Desafio 2 AWS - Semana 1 - Sitio Estatico en AWS](Days/day05.md)
 - [✔️] ♾️ 6 > [05   Desafio Cloud Storage - Crear Bucket](Days/day06.md)
