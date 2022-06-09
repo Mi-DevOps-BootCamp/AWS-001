@@ -1,6 +1,5 @@
-# Mis Dias en el BootCamp de DevOps
+# Mis Desafios de la Fase II
 
-<p align="center">
 
  ![Screenshot_330](https://user-images.githubusercontent.com/105083569/167223748-bc800af0-3529-4b80-8418-8ad53aec03c3.png)
 
