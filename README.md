@@ -51,7 +51,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ☁️ 30 > [Windows - Analisis de AutoRuns en Busqueda de Malware Microsoft Azure Networking Models + Azure Management - Desafíos semanales](Days/day30.md)
 - [✔️] ☁️ 31 > [Malware Hunting con AutoRuns Cómo utilizar Autoruns para Detectar Malware](Days/day31.md)
 - [✔️] ☁️ 32 > [Password de Repositorio publico de malware -TheZoo ](Days/day32.md)
-- [✔️] ☁️ 33 > [](Days/day33.md)
+- [✔️] ☁️ 33 > [Introduccion al Analisis Dinamico y Estatico de Malware con Sysinternals](Days/day33.md)
 - [✔️] ☁️ 34 > [d](Days/day34.md)
 - [✔️] 📚 35 > [Tl](Days/day35.md)
 - [✔️] 📚 36 > [I](Days/day36.md)
