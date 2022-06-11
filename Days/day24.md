@@ -58,14 +58,17 @@
 
 #
 ● Compare-Object: Compara el contenido de dos archivos:
-#
+
 Este ejemplo compara el contenido de dos archivos, el ejemplo usa los siguientes dos archivos de texto, cada uno con un valor en una línea diferente.
-#
+
 ● verduras.txt contiene los valores: papa, zapallo, tomate.
-#
+
 ● frutas.txt contiene los valores: banana, tomate, naranja.
-#
-El resultado muestra solo las líneas que son diferentes entre los archivos. En verduras.txt usa el objeto de referencia (<=) y en frutas.txt usa el objeto de diferencia (=>). Las líneas que se encuentran en los dos archivos no son mostradas.
+
+#### El resultado muestra solo las líneas que son diferentes entre los archivos. 
+En verduras.txt usa el objeto de referencia (<=) y en frutas.txt usa el objeto de diferencia (=>). 
+
+Las líneas que se encuentran en los dos archivos no son mostradas.
 
 ![Screenshot_467](https://user-images.githubusercontent.com/96561825/172919823-3fb52955-5887-4a5e-9622-3466a7e08543.png)
 #
