@@ -101,56 +101,39 @@ En ocasiones, hace falta un poco de experiencia para saber qué software represe
 
 Veamos algunos tips que te ayudarán a diferenciar los softwares legítimos, de aquellos que no lo son.
 
-> Si un elemento está firmado digitalmente por una compañía o tiene una descripción, lo más probable es que sea legítimo
+- Si un elemento está firmado digitalmente por una compañía o tiene una descripción, lo más probable es que sea legítimo
 
-> Si el nombre del software te suena familiar, generalmente no hay ningún problema
-> 
-Los programas maliciosos **se suelen “disfrazar” con nombres similares a los softwares legítimos**, como “WhatsAppLaucher” o “PhotoshopJump”. Si encuentras elementos de ese tipo, es probable que el ordenador haya sido atacado por un virus
+- Si el nombre del software te suena familiar, generalmente no hay ningún problema
 
-> Generalmente, los malwares aparecen en la pestaña “Logon”, aunque no siempre ocurre así
+- Los programas maliciosos **se suelen “disfrazar” con nombres similares a los softwares legítimos**, como “WhatsAppLaucher” o “PhotoshopJump”. Si encuentras elementos de ese tipo, es probable que el ordenador haya sido atacado por un virus
 
-> Los virus y malwares se suelen esconder en esta carpeta: C:\Windows\System32. Revísala frecuentemente
+- Generalmente, los malwares aparecen en la pestaña “Logon”, aunque no siempre ocurre así
 
-> Los archivos riesgosos tienden a estar acompañados de un icono genérico
+- Los virus y malwares se suelen esconder en esta carpeta: C:\Windows\System32. Revísala frecuentemente
 
+- Los archivos riesgosos tienden a estar acompañados de un icono genérico
 
+#
+# Eliminando el malware
 
+zzzzzzzzzzzzzzz
 
+- Ahora que has reconocido las entradas que son sospechosas, tienes las siguientes opciones:
 
+- Desactívalas temporalmente
 
+- Elimínalas de forma permanente
 
-
-
-
-
-
-
-
-
+***Erradica el archivo EXE o DLL del ordenador*** . Otra opción, muévelo a una carpeta en la que no se inicie de forma automática
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#
+#
+#
+#
+#
 
 
 See you on [Day 32](day32.md) 
