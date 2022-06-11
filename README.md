@@ -49,7 +49,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ☁️ 28 > [Windows - Analisis de Procesos  , Registro con ProcMon  - Desafíos semanales](Days/day28.md)
 - [✔️] ☁️ 30 > [Windows - Analisis de AutoRuns en Busqueda de Malware Microsoft Azure Networking Models + Azure Management - Desafíos semanales](Days/day30.md)
 - [✔️] ☁️ 31 > [Password de Repositorio Publico de Malware _TheZoo .pdfMicrosoft Azure Hands-On Scenarios -Desafíos semanales](Days/day31.md)
-- [✔️] ☁️ 32 > [Introduccion al Analisis Dinamico y Estatico de Malware con Systernals en Windows Microsoft Azure Networking Models + Azure Management - Desafíos semanales - ](Days/day32.md)
+- [✔️] ☁️ 32 > [Introduccion al Analisis Dinamico y Estatico de Malware con Systernals en Windows Microsoft Azure Networking Models + Azure Management](Days/day32.md)
 - [✔️] ☁️ 33 > [dddddddMicrosoft Azure Hands-On Scenarios](Days/day33.md)
 - [✔️] ☁️ 34 > [dddddddMicrosoft Azure Hands-On Scenarios](Days/day34.md)
 - [✔️] 📚 35 > [The Big Picture: Git - Version Control](Days/day35.md)
