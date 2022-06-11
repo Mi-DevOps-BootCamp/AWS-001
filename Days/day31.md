@@ -123,7 +123,7 @@ Veamos algunos tips que te ayudarán a diferenciar los softwares legítimos, de 
 
 - Si el nombre del software te suena familiar, generalmente no hay ningún problema
 
-- Los programas maliciosos **se suelen “disfrazar” con nombres similares a los softwares legítimos**, como “WhatsAppLaucher” o “PhotoshopJump”. Si encuentras elementos de ese tipo, es probable que el ordenador haya sido atacado por un virus
+- Los programas maliciosos ***se suelen “disfrazar” con nombres similares a los softwares legítimos***, como “WhatsAppLaucher” o “PhotoshopJump”. Si encuentras elementos de ese tipo, es probable que el ordenador haya sido atacado por un virus
 
 - Generalmente, los malwares aparecen en la pestaña “Logon”, aunque no siempre ocurre así
 
@@ -138,14 +138,13 @@ Veamos algunos tips que te ayudarán a diferenciar los softwares legítimos, de 
 ![Screenshot_11](https://user-images.githubusercontent.com/96561825/173206291-6fad5177-07af-4139-857e-c84ae96c48f3.png)
 
 
-
-- Ahora que has reconocido las entradas que son sospechosas, tienes las siguientes opciones:
+Ahora que has reconocido las entradas que son sospechosas, tienes las siguientes opciones:
 
 - Desactívalas temporalmente
 
 - Elimínalas de forma permanente
 
-***Erradica el archivo EXE o DLL del ordenador*** . Otra opción, muévelo a una carpeta en la que no se inicie de forma automática
+- ***Erradica el archivo EXE o DLL del ordenador*** . Otra opción, muévelo a una carpeta en la que no se inicie de forma automática
 
 
 
