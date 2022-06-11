@@ -86,4 +86,4 @@ VMMap es la herramienta ideal para desarrolladores que desean comprender y optim
 #
 #
 
-See you on [Day 28](day28.md) where will start looking into cloud computing and get a good grasp and foundational knowledge of the topic and what is available. 
+Nos vemos el [Dia 28](day28.md)  
