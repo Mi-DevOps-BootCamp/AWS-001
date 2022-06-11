@@ -5,10 +5,11 @@
 
 ### 25 comandos básicos de Windows PowerShell
 
+![Screenshot_20](https://user-images.githubusercontent.com/96561825/173208097-bddecb5b-0dce-48a7-af13-c8dd6b8f9bc4.png)
 
-![Screenshot_2](https://user-images.githubusercontent.com/96561825/172918765-8906092a-0426-4669-bea5-a829959e42ca.png)
+![Screenshot_19](https://user-images.githubusercontent.com/96561825/173208099-44a82f95-c7fa-441a-bbcc-33c539a1df5f.png)
 
-![Screenshot_3](https://user-images.githubusercontent.com/96561825/172918882-f2da3ac3-a04e-4f55-b13a-a070ac03845a.png)
+
 
 
 ## Ejemplos de uso
