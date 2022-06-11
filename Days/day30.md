@@ -1,6 +1,6 @@
 
 
-# Desafio Inicial : Instalar Windows 7 en una VBOX
+# Instalar Windows 7 en una VBOX
 
 Este desafio entregable debe cargarse con las capturas de pantalla de acuerdo a lo consignado en el drive para la correcion del tutor.
 
