@@ -49,7 +49,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ☁️ 28 > [Analisis de Procesos  , Registro con ProcMon](Days/day28.md)
 - [✔️] ☁️ 29 > [aaaaaaaaaaa) ](Days/day29.md)
 - [✔️] ☁️ 30 > [Instalar Windows 7 en una VBOX](Days/day30.md)
-- [✔️] ☁️ 31 > [Malware Hunting con AutoRuns Cómo utilizar Autoruns para Detectar Malware](Days/day31.md)
+- [✔️] ☁️ 31 > [Analisis de AutoRuns en Busqueda de Malware](Days/day31.md)
 - [✔️] ☁️ 32 > [Password de Repositorio publico de malware -TheZoo ](Days/day32.md)
 - [✔️] ☁️ 33 > [Introduccion al Analisis Dinamico y Estatico de Malware con Sysinternals](Days/day33.md)
 - [✔️] ☁️ 34 > [d](Days/day34.md)
