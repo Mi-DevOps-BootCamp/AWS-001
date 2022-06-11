@@ -1,6 +1,9 @@
-# Malware Hunting con AutoRuns
+# Analisis de AutoRuns en Busqueda de Malware
 
-# Cómo utilizar Autoruns para Detectar Malware
+## Malware Hunting con AutoRuns
+
+### Cómo utilizar Autoruns para Detectar Malware
+# 
 
 
 
