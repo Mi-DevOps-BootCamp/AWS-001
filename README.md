@@ -43,12 +43,12 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 
 ## Desafios Semanales  
 
-- [✔️] ☁️ 25 > [Utilizacion de Process Explorer Para Analisis de Malware - Sysinternals - Desafíos semanales](Days/day25.md)
-- [✔️] ☁️ 26 > [Comandos Utiles y Necesarios PowerShell - BootCamp DevOps - Desafíos semanales](Days/day26.md)
-- [✔️] ☁️ 27 > [Windows - Analisis de Procesos en Memoria Virtual con VMMAP y en RAM (Monitoreo) - Desafíos semanales](Days/day27.md)
-- [✔️] ☁️ 28 > [Windows - Analisis de Procesos  , Registro con ProcMon  - Desafíos semanales](Days/day28.md)
-- [✔️] ☁️ 29 > [aaaaaaaaaaa) - Desafíos semanales](Days/day29.md)
-- [✔️] ☁️ 30 > [Windows - Analisis de AutoRuns en Busqueda de Malware Microsoft Azure Networking Models + Azure Management - Desafíos semanales](Days/day30.md)
+- [✔️] ☁️ 25 > [Utilizacion de Process Explorer Para Analisis de Malware - Sysinternals](Days/day25.md)
+- [✔️] ☁️ 26 > [Comandos Utiles y Necesarios PowerShell - BootCamp DevOps](Days/day26.md)
+- [✔️] ☁️ 27 > [Windows - Analisis de Procesos en Memoria Virtual con VMMAP y en RAM (Monitoreo)](Days/day27.md)
+- [✔️] ☁️ 28 > [Windows - Analisis de Procesos  , Registro con ProcMon](Days/day28.md)
+- [✔️] ☁️ 29 > [aaaaaaaaaaa) ](Days/day29.md)
+- [✔️] ☁️ 30 > [Desafio Inicial : Instalar Windows 7 en una VBOX](Days/day30.md)
 - [✔️] ☁️ 31 > [Malware Hunting con AutoRuns Cómo utilizar Autoruns para Detectar Malware](Days/day31.md)
 - [✔️] ☁️ 32 > [Password de Repositorio publico de malware -TheZoo ](Days/day32.md)
 - [✔️] ☁️ 33 > [Introduccion al Analisis Dinamico y Estatico de Malware con Sysinternals](Days/day33.md)
