@@ -50,13 +50,13 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ☁️ 29 > [aaaaaaaaaaa) - Desafíos semanales](Days/day29.md)
 - [✔️] ☁️ 30 > [Windows - Analisis de AutoRuns en Busqueda de Malware Microsoft Azure Networking Models + Azure Management - Desafíos semanales](Days/day30.md)
 - [✔️] ☁️ 31 > [Malware Hunting con AutoRuns Cómo utilizar Autoruns para Detectar Malware](Days/day31.md)
-- [✔️] ☁️ 32 > [Introduccion al Analisis Dinamico y Estatico de Malware con Systernals en Windows Microsoft Azure Networking Models + Azure Management](Days/day32.md)
-- [✔️] ☁️ 33 > [dddddddMicrosoft Azure Hands-On Scenarios](Days/day33.md)
-- [✔️] ☁️ 34 > [dddddddMicrosoft Azure Hands-On Scenarios](Days/day34.md)
-- [✔️] 📚 35 > [The Big Picture: Git - Version Control](Days/day35.md)
-- [✔️] 📚 36 > [Installing & Configuring Git](Days/day36.md)
-- [✔️] 📚 37 > [Gitting to know Git](Days/day37.md)
-- [✔️] 📚 38 > [Staging & Changing](Days/day38.md)
+- [✔️] ☁️ 32 > [Password de Repositorio publico de malware -TheZoo ](Days/day32.md)
+- [✔️] ☁️ 33 > [](Days/day33.md)
+- [✔️] ☁️ 34 > [d](Days/day34.md)
+- [✔️] 📚 35 > [Tl](Days/day35.md)
+- [✔️] 📚 36 > [I](Days/day36.md)
+- [✔️] 📚 37 > [G](Days/day37.md)
+- [✔️] 📚 38 > [S](Days/day38.md)
  
  ### Use Git Effectively
  
