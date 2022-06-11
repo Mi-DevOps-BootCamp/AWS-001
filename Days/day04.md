@@ -1,3 +1,9 @@
+# El Sysadmin y la Automatizacion
+
+#
+#
+#
+
 
 # Automatización de la infraestructura
 
@@ -6,7 +12,8 @@
 2. ¿Por qué es importante automatizar la infraestructura de TI?
 3. ¿Qué procesos de la infraestructura de TI se pueden automatizar?
 
-
+#
+#
 
 # 1 - ¿Qué es la automatización de la infraestructura?
 
@@ -20,7 +27,8 @@ La automatización consiste en usar la tecnología para realizar tareas casi sin
 
 La automatización de la TI, también denominada automatización de la infraestructura, consiste en el uso de sistemas de software para crear instrucciones y procesos repetibles a fin de reemplazar o reducir la interacción humana con los sistemas de TI.
 
-
+#
+#
 # 2- ¿Por qué es importante automatizar la infraestructura de TI?
 
 ¿Por qué automatizar?  Automatizar tareas, ganar tiempo y maximizar la productividad de nuestra infraestructura IT. En tiempos de cloud, este es el mensaje que se repite una y otra vez: cómo hacer más con menos, cómo conseguir que los profesionales IT de nuestra empresa dediquen más tiempo a generar valor para la compañía y menos a tareas repetitivas que se podrían realizar de forma automática.
@@ -37,7 +45,8 @@ respuesta.
 7. Alojar una mayor cantidad de datos.
 8. Elevar la competitividad del negocio.
 
-
+#
+#
 # 3 - ¿Qué procesos de la infraestructura de TI se pueden automatizar?
 
 Primero debemos preguntarnos:
