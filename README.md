@@ -43,13 +43,13 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 
 ## Desafios Semanales  
 
-- [✔️] ☁️ 25 > [Desafíos semanales - Utilizacion de Process Explorer Para Analisis de Malware - Sysinternals ](Days/day25.md)
-- [✔️] ☁️ 26 > [Desafíos semanales - Comandos Utiles y Necesarios PowerShell - BootCamp DevOps](Days/day26.md)
-- [✔️] ☁️ 27 > [Desafíos semanales - Windows - Analisis de Procesos en Memoria Virtual con VMMAP y en RAM (Monitoreo)](Days/day27.md)
-- [✔️] ☁️ 28 > [Desafíos semanales - Windows - Analisis de Procesos  , Registro con ProcMon](Days/day28.md)
-- [✔️] ☁️ 30 > [Desafíos semanales - Windows - Analisis de AutoRuns en Busqueda de Malware Microsoft Azure Networking Models + Azure Management](Days/day30.md)
-- [✔️] ☁️ 31 > [Desafíos semanales - Password de Repositorio Publico de Malware _TheZoo .pdfMicrosoft Azure Hands-On Scenarios](Days/day31.md)
-- [✔️] ☁️ 32 > [Desafíos semanales - Introduccion al Analisis Dinamico y Estatico de Malware con Systernals en Windows Microsoft Azure Networking Models + Azure Management](Days/day32.md)
+- [✔️] ☁️ 25 > [Utilizacion de Process Explorer Para Analisis de Malware - Sysinternals - Desafíos semanales](Days/day25.md)
+- [✔️] ☁️ 26 > [Comandos Utiles y Necesarios PowerShell - BootCamp DevOps - Desafíos semanales](Days/day26.md)
+- [✔️] ☁️ 27 > [Windows - Analisis de Procesos en Memoria Virtual con VMMAP y en RAM (Monitoreo) - Desafíos semanales](Days/day27.md)
+- [✔️] ☁️ 28 > [Windows - Analisis de Procesos  , Registro con ProcMon  - Desafíos semanales](Days/day28.md)
+- [✔️] ☁️ 30 > [Windows - Analisis de AutoRuns en Busqueda de Malware Microsoft Azure Networking Models + Azure Management - Desafíos semanales](Days/day30.md)
+- [✔️] ☁️ 31 > [Password de Repositorio Publico de Malware _TheZoo .pdfMicrosoft Azure Hands-On Scenarios -Desafíos semanales](Days/day31.md)
+- [✔️] ☁️ 32 > [Introduccion al Analisis Dinamico y Estatico de Malware con Systernals en Windows Microsoft Azure Networking Models + Azure Management - Desafíos semanales - ](Days/day32.md)
 - [✔️] ☁️ 33 > [dddddddMicrosoft Azure Hands-On Scenarios](Days/day33.md)
 - [✔️] ☁️ 34 > [dddddddMicrosoft Azure Hands-On Scenarios](Days/day34.md)
 - [✔️] 📚 35 > [The Big Picture: Git - Version Control](Days/day35.md)
