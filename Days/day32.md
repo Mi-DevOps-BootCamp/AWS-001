@@ -1,5 +1,5 @@
 
-# [Sysinternals Suite](https://download.sysinternals.com/files/SysinternalsSuite.zip)   Vinculo
+# [Sysinternals Suite](https://download.sysinternals.com/files/SysinternalsSuite.zip)   - Vinculo descarga Directo
 
 
 #
