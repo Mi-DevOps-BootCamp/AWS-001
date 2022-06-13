@@ -83,8 +83,7 @@ Algunos ejemplos
 #
 #
 #
-Seguimos en el [Día 6](day 06.md).
-See you on [Day 6](day06.md).
+Seguimos en el [Día  6](day06.md).
 
 
 
