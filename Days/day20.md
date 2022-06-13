@@ -1,5 +1,7 @@
 
 # Ejercicio Cliente-servidor -  ejercicio drag and drop
+#
+
 
 
 ## Arquitectura cliente-servidor
@@ -20,19 +22,9 @@ Tenemos los siguientes conceptos, ubiquemos cada uno con el que corresponda.
 
 En el siguiente dia las respuestas . 
 
-
-
-
-
-
-
-
-
-
-
 #
 #
 #
 #
 #
-See you on [Day21](day21.md)
+Seguimos en el [Día 21](day21.md)
