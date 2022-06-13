@@ -45,28 +45,4 @@ Los módulos en otras ubicaciones deben importarse ejecutando el ****Import-Modu
 #
 #
 #
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-See you on [Day20](day20.md)
+Seguimos en el [Día 20](day20.md)
