@@ -1,7 +1,9 @@
 
 
+# Crear 1 VM con VirtualBox
 
-# Objetivos
+# Objetivos  
+"
 
 En el siguiente ejercicio vamos a crear una máquina virtual con el virtualizador VirtualBox. 
 
@@ -222,30 +224,10 @@ Con toda la mesa de trabajo debatan sobre las siguientes preguntas y contesten e
 
 
 
+
 #
 #
 #
 #
 #
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-See you on [Day18](day18.md)
+Seguimos en el [Día 18](day18.md)
