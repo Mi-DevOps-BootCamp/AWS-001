@@ -113,7 +113,7 @@ Estas tecnologías expuestas para automatizar la infraestructura TI no son todas
 #
 #
 #
-Seguimos en el [Día 7](day7.md)
+Seguimos en el [Día 7](day07.md)
 
 
 
