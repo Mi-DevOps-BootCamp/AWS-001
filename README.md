@@ -53,27 +53,22 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ☁️ 32 > [SysinternalsSuite.zip ](Days/day32.md)
 - [✔️] ☁️ 33 > [Sysinternals Video Library  01](Days/day33.md)
 - [✔️] ☁️ 34 > [Sysinternals Video Library  02](Days/day34.md)
-- [✔️] 📚 35 > [xl](Days/day35.md)
-- [✔️] 📚 36 > [x](Days/day36.md)
-- [✔️] 📚 37 > [x](Days/day37.md)
-- [✔️] 📚 38 > [x](Days/day38.md)
- 
- ### Sysinternals  - Material para trabajar 
+- [✔️] ☁️ 35 > [xl](Days/day35.md)
+- [✔️] ☁️ 36 > [x](Days/day36.md)
+- [✔️] ☁️ 37 > [x](Days/day37.md)
+- [✔️] ☁️ 38 > [x](Days/day38.md)
  
  
-- [✔️] 📚 39 > [Sysinternals Video Library  01 ](Days/day39.md)
-- [✔️] 📚 40 > [Sysinternals Video Library  02 ](Days/day40.md)
-- [✔️] 📚 41 > [Tz](Days/day41.md)
-
-### Containers 
-
-- [✔️] 🏗️ 42 > [The Big Picture: Containers](Days/day42.md)
-- [✔️] 🏗️ 43 > [What is Docker & Getting installed](Days/day43.md)
-- [✔️] 🏗️ 44 > [Docker Images & Hands-On with Docker Desktop](Days/day44.md)
-- [✔️] 🏗️ 45 > [The anatomy of a Docker Image](Days/day45.md)
-- [✔️] 🏗️ 46 > [Docker Compose](Days/day46.md)
-- [✔️] 🏗️ 47 > [Docker Networking & Security](Days/day47.md)
-- [✔️] 🏗️ 48 > [Alternatives to Docker](Days/day48.md)
+- [✔️] 📚 39 > [0](Days/day39.md)
+- [✔️] 📚 40 > [0](Days/day40.md)
+- [✔️] 📚 41 > [0](Days/day41.md)
+- [✔️] 📚 42 > [0](Days/day42.md)
+- [✔️] 📚 43 > [0](Days/day43.md)
+- [✔️] 📚 44 > [0](Days/day44.md)
+- [✔️] 📚 45 > [0](Days/day45.md)
+- [✔️] 📚 46 > [0](Days/day46.md)
+- [✔️] 📚 47 > [0](Days/day47.md)
+- [✔️] 📚 48 > [0](Days/day48.md)
 
 ### Kubernetes
 
