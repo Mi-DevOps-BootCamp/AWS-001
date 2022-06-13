@@ -1,9 +1,9 @@
 
 
 # Crear 1 VM con VirtualBox
-
+#
 # Objetivos  
-"
+
 
 En el siguiente ejercicio vamos a crear una máquina virtual con el virtualizador VirtualBox. 
 
