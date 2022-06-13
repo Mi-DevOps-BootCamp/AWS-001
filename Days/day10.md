@@ -1,12 +1,14 @@
 
 
 # Glosario de comandos
+#
 
 
-A continuación, veremos algunos de los cmdlets más útiles y más comunes que estaremos usando en Windows Powershell.
+#### A continuación, veremos algunos de los cmdlets más útiles y más comunes que estaremos usando en Windows Powershell.
+#
 
 
-# 25 comandos básicos de Windows PowerShell
+## 25 comandos básicos de Windows PowerShell
 
 
 #
@@ -63,8 +65,6 @@ A continuación, veremos algunos de los cmdlets más útiles y más comunes que 
 
 ****Write-Output**** = Envía el objeto especificado al siguiente comando en la canalización. Si es el último comando en la canalización, el objeto se mostrará en consola.
 
-#
-#
 #
 #
 #
@@ -214,7 +214,9 @@ El resultado muestra solo las líneas que son diferentes entre los archivos. En 
 
 
 
-
-
-
-See you on [Day 11](day11.md).
+#
+#
+#
+#
+#
+Seguimos en el [Día 11](day11.md).
