@@ -1,6 +1,6 @@
 
 # Acerca de los módulos de PowerShell
-
+#
 
 
 ## ¿Qué es un módulo?
@@ -30,20 +30,4 @@ Los módulos en otras ubicaciones deben importarse ejecutando el Import-Module c
 #
 #
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-See you on [Day19](day19.md)
+Seguimos en el [Día19](day19.md)
