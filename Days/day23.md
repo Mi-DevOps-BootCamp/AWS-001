@@ -1,119 +1,138 @@
----
-title: '#90DaysOfDevOps - Network Protocols - Day 23'
-published: false
-description: 90DaysOfDevOps - Network Protocols
-tags: "devops, 90daysofdevops, learning"
-cover_image: null
-canonical_url: null
-id: 1048704
----
-## Network Protocols 
-
-A set of rules and messages that form a standard. An Internet Standard. 
-
-- ARP - Address Resolution Protocol 
-
-If you want to get really into the weeds on ARP you can read the Internet Standard here. [RFC 826](https://datatracker.ietf.org/doc/html/rfc826) 
-
-Connects IP addresses to fixed physical machine addresses, also known as MAC addresses across a layer 2 network. 
-
-![](Images/Day23_Networking1.png)
-
-- FTP - File Transfer Protocol 
-
-Allows for the transfer of files from source to destination. Generally this process is authenticated but there is the ability if configured to use anonymous access. You will more frequently now see FTPS which provides SSL/TLS connectivity to FTP servers from the client for better security. This protocol would be found in the Application layer of the OSI Model. 
-
-![](Images/Day23_Networking2.png)
-
-- SMTP - Simple Mail Transfer Protocol 
-
-Used for email transmission, mail servers use SMTP to send and recieve mail messages. You will still find even with Microsoft 365 that the SMTP protocol is used for the same purpose. 
-
-![](Images/Day23_Networking3.png)
-
-- HTTP - Hyper Text Transfer Protocol 
-
-HTTP is the foundation of the internet and browsing content. Giving us the ability to easily access our favourite websites. HTTP is still heavily used but HTTPS is more so used or should be used on most of your favourite sites. 
-
-![](Images/Day23_Networking4.png)
-
-- SSL - Secure Sockets Layer | TLS - Transport Layer Security 
-
-TLS has taken over from SSL, TLS is a [Cryptographic Protocol]() that provides security communications over a network. It can and will be found in mail, im and other applications but most commonly it is used to secure HTTPS.  
-
-![](Images/Day23_Networking5.png)
-
-- HTTPS - HTTP secured with SSL/TLS 
-
-An extension of HTTP, used for secure communications over a network, HTTPS is encrypted with TLS as mentioned above. The focus here was to bring authenticaion, privacy and integrity whilst data is exchanged between hosts. 
-
-![](Images/Day23_Networking6.png)
-
-- DNS - Domain Name System 
-
-The DNS is used to map human-freindly domain names for example we all know [google.com](https://google.com) but if you were to open a browser and put in [8.8.8.8](https://8.8.8.8) you would get Google as we pretty much know it. However good luck trying to remember all of the IP addresses for all of your websites where some of them we even use google to find information. 
-
-This is where DNS comes in, it ensures that hosts, services and other resources are reachable. 
-
-On all hosts, if they require internet connectivity then they must have DNS to be able to resolve those domain names. DNS is an area you could spend Days and Years on learning. I would also say from experience that DNS is mostly the common cause of all errors when it comes to Networking. Not sure if a Network engineer would agree there though. 
-
-![](Images/Day23_Networking7.png)
-
-- DHCP - Dynamic Host Configuration Protocol 
-
-We have discussed a lot about protocols that are required to make our hosts work, be it accessing the internet or transferring files between each other. 
-
-There are 4 things that we need on every host for it to be able to achieve both of those tasks. 
-
-- IP Address 
-- Subnet Mask 
-- Default Gateway 
-- DNS 
-
-We have covered IP address being a unique address for your host on the network it resides, we can think of this as our house number. 
-
-Subnet mask we will cover shortly, but you can think of this as post code or zip code. 
-
-Default gateway is the IP of our router generally on our network providing us with that Layer 3 connectivity. You could think of this as the single road that allows us out of our street.  
-
-Then we have DNS as we just covered to help us convert complicated public IP addresses to more suitable and rememberable domain names. Maybe we can think of this as the giant sorting office to make sure we get the right post. 
-
-As I said each host requires these 4 things, if you have 1000 or 10,000 hosts then that is going to take you a very long time to determine each one of these individually. This is where DHCP comes in and allows you to determine a scope for your network and then this protocol will distribute to all available hosts in your network. 
-
-Another example, you head into a coffee shop, grab a coffee and sit down with your laptop or your phone lets call that your host. You connect your host to the coffee shop wifi and you gain access to the internet, messages and mail start pinging through and you can navigate web pages and social media. When you connected to the coffee shop wifi your machine would have picked up a DHCP address either from a dedicated DHCP server or most likely from the router also handling DHCP. 
-
-![](Images/Day23_Networking8.png)
-
-### Subnetting 
-
-A subnet is a logical subdivision of an IP network.
-
-Subnets break large networks into smaller, more manageable networks that run more efficiently. 
-
-Each subnet is a logical subdivision of the bigger network. Connected devices with enough subnet share common IP address identifier, enabling them to communicate with each other. 
-
-Routers manage communication between subnets. 
-
-The size of a subnet depends on the connectivity requirements and the network technology used. 
-
-An organisation is responsible for determining its number and size of the subnets within the limits of address space
-available, and the details remain local to that organisation. Subnets can also be segmented into even smaller subnets for things like Point to Point links, or for sub networks supporting a few devices. 
-
-Among other advantages, segmenting large
-networks into subnets enables IP address
-reallocation and relieves network congestion, streamlining, network communication and efficiency. 
-
-Subnets can also improve network security.
-If a section of a network is compromised, it can be quarantined, making it difficult for bad actors to move around the larger network. 
-
-![](Images/Day23_Networking9.png)
 
 
-## Resources 
 
-- [Computer Networking full course](https://www.youtube.com/watch?v=IPvYjXCsTg8)
-- [Practical Networking](http://www.practicalnetworking.net/)
+# Glosario de comandos
+#
+## A continuación, veremos algunos de los cmdlets más útiles y más comunes que estaremos usando en Windows PowerShell.
 
-See you on [Day 24](day24.md)
+### 25 comandos básicos de Windows PowerShell
+
+![Screenshot_20](https://user-images.githubusercontent.com/96561825/173208097-bddecb5b-0dce-48a7-af13-c8dd6b8f9bc4.png)
+
+![Screenshot_19](https://user-images.githubusercontent.com/96561825/173208099-44a82f95-c7fa-441a-bbcc-33c539a1df5f.png)
 
 
+
+
+## Ejemplos de uso
+#
+● Set-Location: Establece la ubicación actual.
+
+![Screenshot_448](https://user-images.githubusercontent.com/96561825/172919083-54f12af9-104b-4b3c-94cd-1057efeb5cd5.png)
+#
+● Get-Content: Obtiene el contenido de un archivo de texto.
+
+![Screenshot_450](https://user-images.githubusercontent.com/96561825/172919146-18533462-f631-4a86-b705-5c139c167450.png)
+#
+● Add-Content: Añade contenido a un archivo de texto.
+![Screenshot_452](https://user-images.githubusercontent.com/96561825/172919193-98bf8928-00e2-4ff2-913a-483b796b36a4.png)
+#
+● Add-Content: Añade contenido a un archivo de texto.
+
+![Screenshot_454](https://user-images.githubusercontent.com/96561825/172919249-87381362-1be1-4074-8701-289dd002e225.png)
+#
+● Copy-Item: Copia un archivo a un directorio específico.
+
+![Screenshot_456](https://user-images.githubusercontent.com/96561825/172919329-c7930d02-9e85-489a-98bf-412e6180bc47.png)
+#
+● Remove-Item: Este ejemplo elimina de la carpeta actual todos los archivos que tienen una extensión de nombre de archivo .doc con la excepción de los que tengan un *1* en su nombre.
+
+![Screenshot_459](https://user-images.githubusercontent.com/96561825/172919484-e7bbe0aa-4919-4c22-b766-01b3c6882fe9.png)}
+#
+● Move-Item: Mueve un archivo a otro directorio y lo renombra.
+
+![Screenshot_461](https://user-images.githubusercontent.com/96561825/172919541-628ecf3a-f48b-47e8-b50d-2202f73817c4.png)
+
+#
+● Set-Item: Este ejemplo crea un alias llamado np para el Notepad de Windows.
+
+
+![Screenshot_464](https://user-images.githubusercontent.com/96561825/172919597-0bcb9372-3726-4772-91e8-fb9d65baa89f.png)
+
+#
+● New-Item: Crea un archivo en el directorio actual.
+
+![Screenshot_465](https://user-images.githubusercontent.com/96561825/172919632-3634b883-c74d-4ac5-9022-399001c0e163.png)
+
+#
+● Start-Job: Ejecuta un script como un proceso en segundo plano.
+
+![Screenshot_466](https://user-images.githubusercontent.com/96561825/172919697-b24fff27-1dba-483c-8c05-718629ddec9b.png)
+
+#
+● Compare-Object: Compara el contenido de dos archivos:
+
+Este ejemplo compara el contenido de dos archivos, el ejemplo usa los siguientes dos archivos de texto, cada uno con un valor en una línea diferente.
+
+● verduras.txt contiene los valores: papa, zapallo, tomate.
+
+● frutas.txt contiene los valores: banana, tomate, naranja.
+
+#### El resultado muestra solo las líneas que son diferentes entre los archivos. 
+En verduras.txt usa el objeto de referencia (<=) y en frutas.txt usa el objeto de diferencia (=>). 
+
+Las líneas que se encuentran en los dos archivos no son mostradas.
+
+![Screenshot_467](https://user-images.githubusercontent.com/96561825/172919823-3fb52955-5887-4a5e-9622-3466a7e08543.png)
+#
+● Group-Object: Agrupa archivos por su extensión.
+
+
+![Screenshot_469](https://user-images.githubusercontent.com/96561825/172919919-995dbb5e-78aa-4e28-9a10-4416982d88af.png)
+#
+
+● Invoke-WebRequest: Muestra una página web.
+
+![Screenshot_470](https://user-images.githubusercontent.com/96561825/172919970-cb734be0-2bae-42b7-bfd3-808e2077f6b1.png)
+#
+● Measure-Object: Este comando cuenta los archivos y carpetas del directorio actual.
+
+![Screenshot_471](https://user-images.githubusercontent.com/96561825/172920029-92834ee2-f991-466f-814a-9ff9ca16e098.png)
+#
+● Resolve-Path: Muestra la ruta actual.
+
+![Screenshot_472](https://user-images.githubusercontent.com/96561825/172920083-2bd353d0-1437-480c-a9cc-0254b88550fb.png)
+#
+● Resume-Job: Reanuda un trabajo por nombre.
+
+
+![Screenshot_473](https://user-images.githubusercontent.com/96561825/172920129-9a485b7f-e368-4d3a-801f-969afd97a479.png)
+
+#
+● Set-Variable: Establece una variable y obtiene su valor.
+
+![Screenshot_474](https://user-images.githubusercontent.com/96561825/172920179-bfdc1c9b-b324-4e94-9a02-7c5e287246d2.png)
+#
+● Show-Command: Abre un cmdlet en una ventana de comandos.
+
+![Screenshot_475](https://user-images.githubusercontent.com/96561825/172920266-58fca462-a61f-4ec4-b4d1-c19fb1678919.png)
+
+
+
+
+![Screenshot_476](https://user-images.githubusercontent.com/96561825/172920313-23674016-d9b5-4dd0-9a24-1b7f8c0ed168.png)
+
+#
+● Sort-Object: Ordena el directorio actual por nombre.
+
+
+![Screenshot_477](https://user-images.githubusercontent.com/96561825/172920444-c67e26c8-dc7c-4d1e-9b25-3619b8b29e26.png)
+
+#
+● Start-Service: Inicia un servicio detenido.
+
+
+![Screenshot_478](https://user-images.githubusercontent.com/96561825/172920478-e6b6d364-5b43-4fbd-a47d-357c62461e9b.png)
+
+#
+● Start-Process: Inicia un proceso que use valores por defecto.
+![Screenshot_479](https://user-images.githubusercontent.com/96561825/172920503-1e3177f8-5e59-4591-a12c-6dde39214c54.png)
+
+
+#
+#
+#
+#
+#
+
+Nos vemos el [Dia 24](day24.md)
