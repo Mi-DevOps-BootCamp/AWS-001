@@ -1,7 +1,5 @@
 
-# Todos los archivos comprimidos en el zip de la muestra de malware poseen el siguiente password - 
-# infected
-
+# (Sysinternals Suite)[https://download.sysinternals.com/files/SysinternalsSuite.zip]
 
 
 #
@@ -10,7 +8,4 @@
 #
 #
 
-
-
-
-See you on [Day 33](day33.md) 
+Seguimos en el [Día 33](day33.md) 
