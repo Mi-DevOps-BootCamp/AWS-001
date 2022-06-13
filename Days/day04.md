@@ -61,12 +61,10 @@ Las 5 tareas más comunes en TI para automatizar
 
 4. Organización de la nube.// Asegura la información y mantén la disponibilidad de ella a través de la automatización para generar mayor eficiencia.
 
-5. Implementar aplicaciones. // 
+5. Implementar aplicaciones. // Algunas aplicaciones requieren instalarse o configurarse, esta tarea puede ser automatizada en las áreas de TI.
 
- 
 #
- 
- Algunas aplicaciones requieren instalarse o configurarse, esta tarea puede ser automatizada en las áreas de TI.
+
 
  Hoy en día el mercado es muy competitivo, cada vez son más las organizaciones optan por automatizar tareas repetitivas en los departamentos de TI, con el fin de aumentar la eficiencia operativa, reducir el error humano, mejoren la colaboración y lo más importante liberen tiempo que puede ser invertido en tareas más importantes y elaboradas.
 
