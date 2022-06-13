@@ -1,3 +1,4 @@
+# La Gráfica de DevOps Explicada
 
 
 
@@ -10,12 +11,9 @@
 ![Screenshot_399](https://user-images.githubusercontent.com/96561825/169953008-aa376087-a396-479b-9efa-fbe046590de4.png)
 
 
-#
-#
 
-# La Gráfica de DevOps
 #
-
+#
 #                            
 # CODE
 
