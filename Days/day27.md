@@ -68,22 +68,10 @@ VMMap es la herramienta ideal para desarrolladores que desean comprender y optim
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #
 #
 #
 #
 #
 
-Nos vemos el [Dia 28](day28.md)  
+Seguimos en el [Día 28](day28.md)  
