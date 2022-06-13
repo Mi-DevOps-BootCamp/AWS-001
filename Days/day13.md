@@ -1,9 +1,9 @@
 
 
-# [Desafio 1 AWS ]( https://misdiasdedevops.github.io/Fase1/Days/AWS-Desafio-1.html)
+# [Desafio 1 AWS ]( https://misdiasdedevops.github.io/Fase-1/Days/AWS-Desafio-1.html)
 
 
-# [Desafio 11 AWS ](https://github.com/MisDiasdeDevOps/Fase1/blob/main/Days/AWS-Desafio-1.html)
+# [Desafio 11 AWS ](https://github.com/MisDiasdeDevOps/Fase-1/blob/main/Days/AWS-Desafio-1.html)
 
 
 #
