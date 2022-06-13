@@ -4,8 +4,6 @@
 #
 #
 
-
-
 En este desafío continuamos la técnica de Malware Hunting sobre el Malware JigSaw de nuestra FASE 1
 
 ![Screenshot_12](https://user-images.githubusercontent.com/96561825/173207124-abfd540c-2a48-447b-be21-f07a3c5e08be.png)
@@ -21,6 +19,7 @@ En este desafío, el cual una vez finalizado debemos cargarlo en el drive consig
 ¿Cuáles son los requisitos de la entrega? :
 
 Aquí deberemos entregar las capturas de los procesos infectados y sus sectores de memoria virtual, VM infectada con Jigsaw.
+
 Valoraremos también las capturas del proceso infectado dentro de VMMAP.
 
 ¡Comencemos!
@@ -60,7 +59,9 @@ VMMap es una utilidad de análisis de memoria física y virtual de proceso.
 
 Muestra un desglose de los tipos de memoria virtual confirmados de un proceso, así como la cantidad de memoria física (espacio de trabajo) asignada por el sistema operativo a esos tipos. 
 
-Además de las representaciones gráficas del uso de memoria, VMMap también muestra información de resumen y un mapa de memoria de proceso detallado. Las eficaces funcionalidades de filtrado y actualización permiten identificar los orígenes de uso de memoria de proceso y el costo de memoria de las características de la aplicación.
+Además de las representaciones gráficas del uso de memoria, VMMap también muestra información de resumen y un mapa de memoria de proceso detallado. 
+
+Las eficaces funcionalidades de filtrado y actualización permiten identificar los orígenes de uso de memoria de proceso y el costo de memoria de las características de la aplicación.
 
 Además de las vistas flexibles para analizar procesos activos, VMMap admite la exportación de datos en varios formatos, incluido un formato nativo que conserva toda la información para que pueda volver a cargarlos. También incluye opciones de línea de comandos que permiten escenarios de scripting.
 
