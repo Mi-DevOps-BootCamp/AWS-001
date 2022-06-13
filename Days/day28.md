@@ -1,5 +1,7 @@
 
-# Desafio BootCamp DevOps Enginner - FASE I - Administracion de Windows Con Systernals
+# Desafio BootCamp DevOps Enginner - FASE I - 
+# 
+# Administracion de Windows Con Systernals
 #
 Para realizar este desafio Semanal , deberemos atender al documento que nos ayudara, el cual es este de aqui :https://docs.google.com/document/d/1652r3OF6INGyE5jCAH2D7KmLW6Up4vwXcQvZlV_Zhfk/edit?usp=sharing ( Si no podes acceder, pedile ayuda al tutor)
 
@@ -30,9 +32,10 @@ Aqui debes encontrar un proceso que de acuerdo a los criterios de busqueda de Ma
 
 
 
+#
+#
+#
+#
+#
 
-
-
-
-
-See you on [Day 29](day29.md)
+Seguimos en el [Día 29](day29.md)
