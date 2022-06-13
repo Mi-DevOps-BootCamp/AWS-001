@@ -251,7 +251,6 @@ Recordamos que para este ejemplo debemos tener en ejecución alguna de las máqu
 
 ![Screenshot_18](https://user-images.githubusercontent.com/96561825/173408177-a20fc288-ae03-4ddd-823d-e6254d95214d.png)
 
-![Screenshot_19](https://user-images.githubusercontent.com/96561825/173408181-44fda4e4-e1b6-4c7d-8504-d78063e5f0bd.png)
 ![Screenshot_20](https://user-images.githubusercontent.com/96561825/173408910-322de263-d742-44b2-b992-cda56de7e44d.png)
 
 
