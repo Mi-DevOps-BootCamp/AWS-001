@@ -1,20 +1,22 @@
 
 # Realización de un ejemplo en Bash
+#
+
+### Índice
 
 
-Índice
-
-
-1. Preparación del entorno
-2. Codificación del script
-3. Ejecución del script
+#### 1. Preparación del entorno
+#### 2. Codificación del script
+#### 3. Ejecución del script
 
 #
 #
 
 # Nos preparamos
 
-Para este ejemplo debemos tener en ejecución alguna de las máquinas virtuales de clase 2. Adicionalmente, debemos instalar un paquete nuevo, llamado “cowsay”, con las siguientes sentencias:
+Para este ejemplo debemos tener en ejecución alguna de las máquinas virtuales de clase 2.
+
+Adicionalmente, debemos instalar un paquete nuevo, llamado “cowsay”, con las siguientes sentencias:
 
 ![Screenshot_483](https://user-images.githubusercontent.com/96561825/170154079-ef198600-d188-44ec-80a5-4a3d60531ef3.png)
 
@@ -24,10 +26,12 @@ Para este ejemplo debemos tener en ejecución alguna de las máquinas virtuales 
 # A codear
 Creamos una carpeta en nuestro equipo y nos posicionamos en ella con las instrucciones:
 
-xxx
+
 ![Screenshot_484](https://user-images.githubusercontent.com/96561825/170154094-cb6070d3-8db6-465b-afd5-328c3dce3a47.png)
 
-Creamos un nuevo archivo llamado lista_verduras y lo completamos con 4 verduras aleatoriamente. Usamos el comando “cat”, finalizamos la edición del archivo con CTRL+D.
+Creamos un nuevo archivo llamado lista_verduras y lo completamos con 4 verduras aleatoriamente.
+
+Usamos el comando “cat”, finalizamos la edición del archivo con CTRL+D.
 
 ![Screenshot_485](https://user-images.githubusercontent.com/96561825/170154099-1c327d1d-54d5-4668-84dc-2b1cd656da2e.png)
 
@@ -48,7 +52,9 @@ Se abrirá el editor nano, con un documento en blanco, en el escribimos las sigu
 
 ![Screenshot_488](https://user-images.githubusercontent.com/96561825/170154124-53f7c93b-5cf8-4db5-b4c3-9302798f8709.png)
 
-El propósito del script es listar los archivos y pasar dicho output a cowsay. Salimos de nano con CTRL+X, le contestamos que queremos salvar los cambios y dejamos el nombre de archivo tal cual propone.
+El propósito del script es listar los archivos y pasar dicho output a cowsay. 
+
+Salimos de nano con CTRL+X, le contestamos que queremos salvar los cambios y dejamos el nombre de archivo tal cual propone.
 
 
 ![Screenshot_489](https://user-images.githubusercontent.com/96561825/170154144-626b1d62-22f0-4119-a8cb-c1260649f399.png)
@@ -76,23 +82,12 @@ Si la ejecución fue exitosa, debemos tener un output como este:
 ![Screenshot_492](https://user-images.githubusercontent.com/96561825/170154174-fc272597-7e57-47d7-a72b-455c3ec8932a.png)
 
 
-
-
-
-
-
-
-
-
-
-
+#
+#
 #
 #
 #
 
 
-
-
-
-See you on [Day15](day15.md)
+Seguimos en el [Día 15](day15.md)
 
