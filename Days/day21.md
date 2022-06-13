@@ -15,15 +15,4 @@
 #
 
 
-
-
-
-
-
-
-
-
-
-
-
-See you on [Day22](day22.md)
+Seguimos en el [Día 22](day22.md)
