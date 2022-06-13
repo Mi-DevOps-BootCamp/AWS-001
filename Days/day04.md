@@ -1,8 +1,6 @@
 # El Sysadmin y la Automatizacion
 
 #
-#
-#
 
 
 # Automatización de la infraestructura
@@ -55,29 +53,22 @@ Primero debemos preguntarnos:
 
 Las 5 tareas más comunes en TI para automatizar
 
-1. Aprovisionamiento de las áreas de TI.
+1. Aprovisionamiento de las áreas de TI. // Automatiza el proceso para habilitar máquinas a través de un levantamiento de servicio para el personal nuevo de tu organización.
 
-Automatiza el proceso para habilitar máquinas a través de un levantamiento de servicio para el personal nuevo de tu organización.
+2. Gestión de configuración. // Ahorra tiempo y trabajo al automatizar la configuración de las máquinas que sehabilitan de acuerdo con los objetivos que tenga el área de TI.
 
-2. Gestión de configuración.
+3. Seguridad y cumplimiento.// Establece acciones de políticas de seguridad y cumplimiento automatizables en la gestión de las máquinas
 
-Ahorra tiempo y trabajo al automatizar la configuración de las máquinas que sehabilitan de acuerdo con los objetivos que tenga el área de TI.
+4. Organización de la nube.// Asegura la información y mantén la disponibilidad de ella a través de la automatización para generar mayor eficiencia.
 
-3. Seguridad y cumplimiento.
+5. Implementar aplicaciones. //  Algunas aplicaciones requieren instalarse o configurarse, esta tarea puede ser automatizada en las áreas de TI.
 
-Establece acciones de políticas de seguridad y cumplimiento automatizables en la gestión de las máquinas
 
-4. Organización de la nube.
-
-Asegura la información y mantén la disponibilidad de ella a través de la automatización para generar mayor eficiencia.
-
-5. Implementar aplicaciones.
- Algunas aplicaciones requieren instalarse o configurarse, esta tarea puede ser automatizada en las áreas de TI.
  Hoy en día el mercado es muy competitivo, cada vez son más las organizaciones optan por automatizar tareas repetitivas en los departamentos de TI, con el fin de aumentar la eficiencia operativa, reducir el error humano, mejoren la colaboración y lo más importante liberentiempo que puede ser invertido en tareas más importantes y elaboradas.
 
 #
 #
-
-
-
-If you made it this far then you will know if this is where you want to be or not. See you on [Day 5](day05.md).
+#
+#
+#
+Seguimos en el [Día 5](day05.md).
