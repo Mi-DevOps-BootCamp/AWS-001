@@ -158,6 +158,5 @@ Ahora que has reconocido las entradas que son sospechosas, tienes las siguientes
 #
 #
 
-
-See you on [Day 32](day32.md) 
+Seguimos en el [Día 32](day32.md) 
 
