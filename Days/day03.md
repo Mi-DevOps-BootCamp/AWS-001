@@ -41,20 +41,12 @@ Una vez instalado, desde una ventana de cmd o PowerShell ejecutamos: vagrant --v
 
 Y deberiamos poder ver la siguiente imagen .
 
-
-
 ![Screenshot_399](https://user-images.githubusercontent.com/96561825/169949351-3fd2d919-4353-4064-aa12-4dd3db5714df.png)
 
+#
+#
+#
+#
+#
 
--
--
--
--
--
--
-
-
-
-
-
-If you made it this far then you will know if this is where you want to be or not. See you on [Day 4](day04.md).  
+Seguimos en el [Día 4](day04.md).  
