@@ -1,155 +1,89 @@
-# Analisis de AutoRuns en Busqueda de Malware
+# Introduccion a Desafios de Fase I del BootCamp DevOps Enginner.
 
-## Malware Hunting con AutoRuns
+![Screenshot_43](https://user-images.githubusercontent.com/96561825/173430665-82d3ce92-e18e-4239-a26e-8ee4c1c3437d.png)
 
-### Cómo utilizar Autoruns para Detectar Malware
-# 
+Teniendo en cuenta el avance y la completitud de los ejercicios y actividades de los cursos activados en la plataforma de Alumni
 
+- Administracion de Windows Server
+- Seguridad en Windows.
 
 
-En este desafio continuamos la tecnica de Malware Hunting sobre el Malware JigSaw de nuestra FASE I 
+Los desafios que trabajaremos a lo largo de la Fase I del BootCamp, en la etapa Windows,e staran centrados en analizar de manera dinamica y estatica malware activo y real en un entorno seguro en Windows, tanto en la nube como en una maquina virtual con VirtualBox.
 
-En este desafio, el cual una vez finalizado debemos cargarlo en el drive consignado por el tutor, junto con las capturas de pantalla y la explicacion, seguiremos analizando nuestra VM en busqueda de rastros y muestras de la ejecucion de JIGSAW, nuestra muestra de Malware elegida para esta ocasion.
+Para ello, necesitaremos lo siguiente:
 
-Comenzemos!
+- Desplegar una Maquina Virtual con Windows 7 en Virtualbox, para eso utilizaremos las guias
+- Instalar VirtualBox : https://drive.google.com/file/d/1DBFGp2OIFE0EzL5shf-_fA0at0hXp6kL/view?usp=sharing 
+- Pedir link de Iso de Windows 7 para virtual box al tutor.
+- Crear una VM con Windows con VirtualBox con Windows 7  : Desafio Inicial  - Instalar Windows en VirtualBox
+- Descargar un repositorio de malware para estudio desde : https://github.com/ytisf/theZoo/archive/refs/heads/master.zip
 
-Vamos a comenzar con las nociones básicas para aprender a utilizar Autoruns:
+( Sitio oficial : https://thezoo.morirt.com/ )  
 
-Al entrar en Autoruns, aparecerán todos los procesos que se ejecutan automáticamente en el arranque del ordenador. No obstante, es importante recordar que no mostrará los programas y procesos que Microsoft ha integrado para que se ejecuten en el arranque del PC.
+![Screenshot_44](https://user-images.githubusercontent.com/96561825/173431170-3fc71560-4d03-48ca-bd41-1e6148aaeb88.png)
 
-#
-# Interfaz
 
-![Screenshot_2](https://user-images.githubusercontent.com/96561825/173206142-e6a6fc75-2029-4819-a20d-b3ea053249f8.png)
+Una vez descargado este repositorio, veremos todas las muestras de malware que recopila.
 
 
+Estas se encuentran dentro de la carpeta “Malware”
 
+![Screenshot_45](https://user-images.githubusercontent.com/96561825/173431367-ab16f703-ee86-4ab5-b8d4-b3d3846bd83c.png)
 
-Ante todo, debemos admitir que Autoruns no tiene una interfaz intuitiva ni agradable a la vista. 
 
-### Es una ventana repleta de pestañas y botones que generan confusión al usuario. Visualmente, parece un programa creado para programadores.
 
-Sin embargo, no es difícil de utilizar después de conocerlo. Solo debes tomarte un tiempo para navegar en el software y conocer sus diferentes funciones
+Y dentro de la carpeta “Binaries”
 
+y seleccionaremos JigSaw
 
-#
-## Deshabilitar procesos
+![Screenshot_46](https://user-images.githubusercontent.com/96561825/173431398-2fd5daaf-ea80-435c-a362-213a042b5dc0.png)
 
-![Screenshot_3](https://user-images.githubusercontent.com/96561825/173206167-cfb29ed8-34e9-41f4-9db1-02738d91b256.png)
+![Screenshot_47](https://user-images.githubusercontent.com/96561825/173431406-4edf6e2f-9141-4868-ba6a-5995bafa35ef.png)
 
 
+descargaremos este malware en NUESTRA MAQUINA VIRTUAL, esto quiere decir que este enlace y la descarga del mismo debe darse dentro de la VM con Windows
 
-Para desactivar cualquier proceso, solo deberás marcar en la casilla junto al elemento y listo. Repite el procedimiento con todos los elementos de la lista que no necesites para el inicio del ordenador. Reinicia el equipo para que los cambios surtan efecto.
+## PRESTAR ATENCION A LO ENSEÑADO EN CLASE - 
 
-#
-# Validación de firmas de código
+Las muestras de malware deben ser manipuladas de acuerdo a lo enseñado en clase y EducacionIT se desliga totalmente de cualquier responsabilidad, en el caso de una manipulacion irresponsable del mismo.
 
-![Screenshot_4](https://user-images.githubusercontent.com/96561825/173206183-f4263287-2e14-490c-9e96-1c3fb4305e76.png)
+Deberemos descomprimir Jigsaw en nuestra VM, en el escritorio.
 
+![Screenshot_48](https://user-images.githubusercontent.com/96561825/173431514-c8dbad4e-cd45-4048-9c2c-d3e5d90570ce.png)
 
-Cuando navegues en el menú de opciones encontrarás una función de gran utilidad: ***Verify Code Signatures (Verificación de firmas de código).***
+Podes encontrar el ransomware aquí , pero le sugiero que use una VM antes de ejecutar el ejecutable. 
 
-Así sabrás si una firma digital está analizada o verificada. Generalmente, los elementos marcados en rosa no están verificados.
+Bien, una vez que haya descargado y extraído el archivo exec, ejecútelo en su máquina virtual. 
 
+Prefiero usar Windows 7/8 porque las versiones más nuevas de Windows se actualizan con frecuencia con parches de seguridad y vienen habilitados con defensores que pueden bloquear algunos de los procesos incluso después de deshabilitar el defensor.
 
-#
-# Logon
+Usaré Windows 7. 
 
-![Screenshot_5](https://user-images.githubusercontent.com/96561825/173206195-07ff282a-0769-4fe4-ad41-6060dc541bbe.png)
+Así que una vez que ejecutes el archivo jigsaw.exe, espera unos segundos y luego verás algo como esto en tu pantalla (de la VM)
 
-Muestra los procesos que se ejecutan automáticamente al arrancar el ordenador. Aquí puedes elegir algunos elementos para que se ejecuten desde el inicio y bloquear los procesos inservibles.
+Este es el link 
 
+https://github.com/ytisf/theZoo/blob/master/malware/Binaries/Ransomware.Jigsaw/Ransomware.Jigsaw.zip
 
-#
-# Explorer
 
-![Screenshot_6](https://user-images.githubusercontent.com/96561825/173206220-6a10a66a-c706-4204-8ed7-ea8cb8a638aa.png)
+![Screenshot_49](https://user-images.githubusercontent.com/96561825/173431656-ce729f10-7246-4e67-88ac-3735727a89c0.png)
 
-Muestra los componentes complementarios que se pueden cargar de forma automática en el Explorador de Windows.
+Haga clic en Aceptar y espere un poco más de tiempo y luego verá algo como esto.
 
-#
-# Internet Explorer
 
-![Screenshot_7](https://user-images.githubusercontent.com/96561825/173206231-086bd6c5-0eef-4bd4-8bb4-b0189ee65a0f.png)
+Nuestro desafio principal a lo largo de la FASE I del BootCamp sera darle caza a este Malware, mediante la Suite Systernals ( https://docs.microsoft.com/en-us/sysinternals/downloads/) en sistemas Windows.
 
 
-### Es una herramienta que refuerza la seguridad del PC.
+Para finalizar, descargaremos la suite Systernals desde
 
-Muestra las barras de herramientas, las extensiones y los objetos auxiliares del navegador que suelen utilizar los piratas informáticos para espiar a sus víctimas.
 
+https://docs.microsoft.com/en-us/sysinternals/downloads/
 
-#
-# Servicios
 
-![Screenshot_8](https://user-images.githubusercontent.com/96561825/173206251-69cbc7cc-c0e2-4416-95aa-335a440b0bbc.png)
 
+![Screenshot_50](https://user-images.githubusercontent.com/96561825/173431762-23986fea-fba3-460c-99e4-5ada21c7b626.png)
 
-Aquí están los servicios que suelen utilizar los malwares para disfrazar su identidad. Debes tener cuidado de no desactivar elementos importantes para el funcionamiento de Windows.
-
-
-#
-# Drivers
-
-![Screenshot_9](https://user-images.githubusercontent.com/96561825/173206260-0f7e4a2d-113f-4ada-b065-544d749eac77.png)
-
-
-
-Aparecerán los controladores que puedan estar infectados por un malware u otra amenaza informática.
-
-
-
-#
-#
-# Cómo limpiar manualmente un PC infectado
-
-
-Con Autoruns puedes eliminar potenciales amenazas del ordenador. 
-
-***Debes desmarcar la casilla junto al proceso que quieres inhabilitar temporalmente. Si quieres desbloquear de forma permanente un programa, puedes hacer clic derecho sobre el elemento y eliminarlo.***
-
-***Nota:*** de esa manera el software solo quedará inactivo, más no desinstalado del PC. Para borrar un programa del ordenador deberás desinstalarlo en el Panel de Control.
-
-
-#
-# Cómo detectar softwares sospechosos
-
-![Screenshot_10](https://user-images.githubusercontent.com/96561825/173206281-5ef3429e-9c45-4129-a958-31e938e079c1.png)
-
-
-En ocasiones, hace falta un poco de experiencia para saber qué software representa un peligro y cual no. 
-
-***La mayoría de los elementos que muestra Autoruns son programas legítimos***, aunque sean desconocidos para ti. 
-
-Veamos algunos tips que te ayudarán a diferenciar los softwares legítimos, de aquellos que no lo son.
-
-- Si un elemento está firmado digitalmente por una compañía o tiene una descripción, lo más probable es que sea legítimo
-
-- Si el nombre del software te suena familiar, generalmente no hay ningún problema
-
-- Los programas maliciosos ***se suelen “disfrazar” con nombres similares a los softwares legítimos***, como “WhatsAppLaucher” o “PhotoshopJump”. Si encuentras elementos de ese tipo, es probable que el ordenador haya sido atacado por un virus
-
-- Generalmente, los malwares aparecen en la pestaña “Logon”, aunque no siempre ocurre así
-
-- Los virus y malwares se suelen esconder en esta carpeta: C:\Windows\System32. Revísala frecuentemente
-
-- Los archivos riesgosos tienden a estar acompañados de un icono genérico
-
-#
-# Eliminando el malware
-
-
-![Screenshot_11](https://user-images.githubusercontent.com/96561825/173206291-6fad5177-07af-4139-857e-c84ae96c48f3.png)
-
-
-Ahora que has reconocido las entradas que son sospechosas, tienes las siguientes opciones:
-
-- Desactívalas temporalmente
-
-- Elimínalas de forma permanente
-
-- ***Erradica el archivo EXE o DLL del ordenador*** . Otra opción, muévelo a una carpeta en la que no se inicie de forma automática
-
-
+Así que ahora sabemos que el archivo jigsaw.exe se ejecutó con éxito y debe haber inyectado algún proceso malicioso. 
 
 
 #
