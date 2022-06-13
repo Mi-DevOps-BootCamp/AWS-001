@@ -2,57 +2,64 @@
 
 
 # Scripting en BASH
-
+#
 
 ## ¿Qué es BASH?
 
 
-Bash es una herramienta Open Source perteneciente al proyecto GNU, y que fue escrita por Brian Fox. Su nombre es el acrónimo de “Bourne-Again Shell”, en referencia a Bourne shell (sh), uno de los primeros intérpretes de comandos de Unix. De hecho, Bash hereda muchas propiedades de otras shells como sh, csh o zsh. Actualmente es la interfaz de línea de comando predeterminada en la mayoría de distribuciones GNU/Linux así como en macOS.
+Bash es una herramienta Open Source perteneciente al proyecto GNU, y que fue escrita por Brian Fox. 
 
-Como ocurre con otras shells de Unix, además de intérprete de comandos, Bash es también un lenguaje de scripting. Esto lo hace extremadamente potente para multitud de tareas relacionadas con la administración de sistemas, automatización de tareas.
+Su nombre es el acrónimo de “Bourne-Again Shell”, en referencia a Bourne shell (sh), uno de los primeros intérpretes de comandos de Unix. 
+
+De hecho, Bash hereda muchas propiedades de otras shells como sh, csh o zsh.
+
+Actualmente es la interfaz de línea de comando predeterminada en la mayoría de distribuciones GNU/Linux así como en macOS.
+
+Como ocurre con otras shells de Unix, además de intérprete de comandos, Bash es también un lenguaje de scripting. 
+
+Esto lo hace extremadamente potente para multitud de tareas relacionadas con la administración de sistemas, automatización de tareas.
 
 Para ejecutar múltiples comandos en un solo paso desde el shell, puede escribirlos en una línea y separarlos con punto y coma.
 # 
 #
-# Como empezamos a escribir en BASH
+## Como empezamos a escribir en BASH
 
 Primero, crea un nuevo archivo usando el comando touch. Al comienzo de cualquier script de Bash, debemos definir qué shell usaremos porque hay muchos shells en Linux, Bash shell es uno de ellos.
 
 La primera línea que escribes al escribir un script bash es el (#!) Seguido del shell que utilizaras.
 
+#! <=== este signo se llama shebang.
 
-xxxx 
+![Screenshot_2](https://user-images.githubusercontent.com/96561825/173407011-dc7c4740-0201-4632-8862-b7dad29def3a.png)
 
-Si utilizas el signo de numeral (#) delante de cualquier línea en su script de Bash, esta línea se comentará, lo que significa que no se procesará, pero la línea anterior es un caso especial. Esta línea define qué shell utilizaremos, que es el Bash de shell en nuestro
-caso.
+
+Si utilizas el signo de numeral (#) delante de cualquier línea en su script de Bash, esta línea se comentará, lo que significa que no se procesará, pero la línea anterior es un caso especial. 
+
+Esta línea define qué shell utilizaremos, que es el Bash de shell en nuestro caso.
 
 Los comandos de shell se ingresan uno por línea como este:
 
-xxx
-
+![Screenshot_3](https://user-images.githubusercontent.com/96561825/173407112-ae8b8e3c-5a15-40df-82f8-0e6f0310ee21.png)
 
 Puedes escribir múltiples comandos en la misma línea, pero debes separarlos con punto y coma, aunque es preferible escribir comandos en líneas separadas, esto hará que sea más fácil de leer luego.
 
 #
 #
-# Establecer los permisos de scripts 
+## Establecer los permisos de scripts 
 
 Después de escribir tu script de Bash, guarda el archivo.
 
-
-
-
 Ahora, configura ese archivo para que sea ejecutable, de lo contrario, mostrará permisos denegados.
 
-xxxx
-
+![Screenshot_4](https://user-images.githubusercontent.com/96561825/173407239-508d8eb8-f27a-486f-a196-d0de1860451d.png)
 
 Luego intenta ejecutarlo simplemente escribiendo en el shell:
 
-xxx
+![Screenshot_5](https://user-images.githubusercontent.com/96561825/173407227-f4c846d4-955d-4ebe-ae16-279822707bf8.png)
+
 #
 #
-# Usando variables
+## Usando variables
 
 Las variables le permiten almacenar información para usarlas dentro del script.
 
@@ -64,31 +71,29 @@ Puedes definir 2 tipos de variables en tu script de Bash:
 
 #
 #
-# De entorno
+## De entorno
 
 Algunas veces necesitas interactuar con las variables del sistema, puede hacerlo utilizando variables de entorno
 
-xxxxxxx
-
+![Screenshot_6](https://user-images.githubusercontent.com/96561825/173407352-61c84354-b3a2-447d-8970-26747ab8a347.png)
 
 Observa que ponemos la variable de sistema $ HOME entre comillas dobles, e imprime la variable home correctamente.
 
 #
 #
-# De usuario
+## De usuario
 
 
 Además, puedes establecer y utilizar variables personalizadas en tu script.
 
 Puedes llamar a las variables de usuario de la misma manera como se muestra a continuación:
 
-xxxxxxxxxxxxxxxxx
-
+![Screenshot_7](https://user-images.githubusercontent.com/96561825/173407419-5b977d58-786e-4d14-b5df-331fe50806f9.png)
 
 #
 #
 
-# Sustitución de comando
+## Sustitución de comando
 
 Puedes extraer información del resultado de un comando utilizando la sustitución de comandos.
 
@@ -102,29 +107,32 @@ Asegúrate de que cuando escribes el carácter de comilla invertida, no es la co
 
 Debes encerrar el comando con comillas invertidas de la siguiente forma:
 
-xxxxxxxxxx
+![Screenshot_8](https://user-images.githubusercontent.com/96561825/173407545-4b02bba9-fdae-432f-9682-288220f4e849.png)
 
 o a la inversa
 
-xxxxxxxx
+![Screenshot_9](https://user-images.githubusercontent.com/96561825/173407534-5d55eaa7-8f8f-4f62-bf79-8a019af72113.png)
 
 Entonces el script podría ser:
-xxxxxxxxxxx
+
+![Screenshot_10](https://user-images.githubusercontent.com/96561825/173407626-ff425296-2913-4f04-a12b-5dc96330750c.png)
 
 
 #
 #
 
-# Cálculo Matemático
+## Cálculo Matemático
 
 Puedes realizar cálculos matemáticos básicos utilizando la sintaxis $ ((2 + 2)):
 
-xxxxxx
+
+![Screenshot_11](https://user-images.githubusercontent.com/96561825/173407700-4e742a78-561b-45f9-989c-d3ad9b5e9e7f.png)
+
 
 #
 #
 
-# Sentencia If-Then
+## Sentencia If-Then
 
 
 Tus scripts de Bash necesitarán condicionales. Si el valor es menor que 10, haz esto, sino haz aquello. Puedes imaginar cualquier lógica que quieras.
@@ -137,15 +145,17 @@ hacer algo
 
 fi
 
-xxxxxxxx
+![Screenshot_12](https://user-images.githubusercontent.com/96561825/173407808-1be1698a-f4bd-421c-bb19-1f6644a51b06.png)
 
-xxxxxxxxxxxxx
+![Screenshot_13](https://user-images.githubusercontent.com/96561825/173407816-153d7d70-906c-456a-94ad-206686dd39ec.png)
+
+
 
 Dado que el comando whoami devolverá mi usuario, la condición volverá a ser verdadera e imprimirá el mensaje.
 
 #
 #
-# Sentencia if-then-else
+## Sentencia if-then-else
 
 
 La sentencia if-then-else statement toma la siguiente estructura:
@@ -159,20 +169,16 @@ fi
 
 Si el comando se ejecuta y retorna cero; lo cual significa éxito, no ejecuta los comandos después de la sentencia else, por otro lado, si la sentencia if retorna un número distinto de cero; lo cual significa que la condición no se cumple, en este caso, el shell ejecuta los comandos después de la sentencia else.
 
-xxxxxxxxxxxx
+![Screenshot_14](https://user-images.githubusercontent.com/96561825/173407917-4e37a8ec-e9f6-49b4-9ee9-6a8e5e9b73f9.png)
 
-
-xxxxxxxxxxxx
-
-
-
+![Screenshot_15](https://user-images.githubusercontent.com/96561825/173407902-18670e17-2e8e-4cc0-a952-e3c7645d22f4.png)
 
 
 #
 
 #
 #
-# Comparaciones Numéricas
+## Comparaciones Numéricas
 
 Puedes realizar una comparación numérica entre dos valores numéricos utilizando
 comprobaciones numéricas de comparación como esta:
@@ -193,12 +199,13 @@ comprobaciones numéricas de comparación como esta:
 
 Ten en cuenta que la sentencia de comparación se encuentra entre corchetes, como se muestra.
 
-xxxxxxx
+![Screenshot_16](https://user-images.githubusercontent.com/96561825/173408000-95538516-3b0e-4bae-9db3-f455e6ac886c.png)
+
 
 #
 #
 
-# Comparaciones de cadenas
+## Comparaciones de cadenas
 
 
 Puedes comparar cadenas con una de las siguientes maneras:
@@ -220,12 +227,12 @@ Puedes comparar cadenas con una de las siguientes maneras:
 
 Podemos aplicar la comparación de cadenas en nuestro ejemplo:
 
-zzzzzzz
+![Screenshot_17](https://user-images.githubusercontent.com/96561825/173408093-d3adc6e1-f5c2-4f88-b000-b3fc7eead628.png)
 
 #
 #
 
-# Realizamos un ejemplo en BASH
+## Realizamos un ejemplo en BASH
 
 
 Recordamos que para este ejemplo debemos tener en ejecución alguna de las máquinas virtuales de clase 2.
@@ -242,15 +249,10 @@ Recordamos que para este ejemplo debemos tener en ejecución alguna de las máqu
 
 ● Creamos el Script mediante sudo nano lista_compras.sh y lo editamos agregando un pipe para usar cowsay en el resultado
 
+![Screenshot_18](https://user-images.githubusercontent.com/96561825/173408177-a20fc288-ae03-4ddd-823d-e6254d95214d.png)
 
-xxxxx
-
-
-
-xxxxxxxxxx
-
-
-
+![Screenshot_19](https://user-images.githubusercontent.com/96561825/173408181-44fda4e4-e1b6-4c7d-8504-d78063e5f0bd.png)
+![Screenshot_20](https://user-images.githubusercontent.com/96561825/173408910-322de263-d742-44b2-b992-cda56de7e44d.png)
 
 
 ● Le damos permisos de ejecución mediante el comando: sudo chmod +x lista_compras.sh
@@ -258,16 +260,12 @@ xxxxxxxxxx
 ● Ejecutamos el script: ./lista_compras.sh
 
 
-
-
-
-
-
-
-
-
-
-See you on [Day16](day16.md)
+#
+#
+#
+#
+#
+Seguimos en el [Día 16](day16.md)
 
 
 
