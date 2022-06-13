@@ -16,9 +16,10 @@ El enlace a la imagen .ISO del sistema operativo a instalar —el VirtualBox ya 
 #
 #
 
-### Instrucciones
+## Instrucciones
 
-Ejercicio 1
+### Ejercicio 1
+
 
 De forma individual ejecutamos los siguientes pasos: 
 
@@ -131,19 +132,23 @@ Para poder probar que nuestro servidor web está instalado y corriendo, debemos 
 
 ![Screenshot_33](https://user-images.githubusercontent.com/96561825/173423168-fe6bcebe-d750-42fb-a0ee-f2ba6d53ee16.png)
 
-Esta nos devolverá una lista de los adaptadores de red que tenemos en nuestro sistema, sus direcciones IP y MAC address. La de nuestro interés es la 2, para este ejemplo es la 192.168.0.74.
+Esta nos devolverá una lista de los adaptadores de red que tenemos en nuestro sistema, sus direcciones IP y MAC address. 
+
+La de nuestro interés es la 2, para este ejemplo es la 192.168.0.74.
 
 ![Screenshot_34](https://user-images.githubusercontent.com/96561825/173423206-065cf56a-b67a-4275-b24c-9536386f2012.png)
 
 
-Con esta dirección, en nuestro equipo, abrimos en el navegador de Internet nuestra dirección IP (siguiendo nuestro ejemplo sería: http://192.168.0.74). Allí debemos obtener la pantalla de inicio de Apache.
+Con esta dirección, en nuestro equipo, abrimos en el navegador de Internet nuestra dirección IP (siguiendo nuestro ejemplo sería: http://192.168.0.74). 
+
+Allí debemos obtener la pantalla de inicio de Apache.
 
 ![Screenshot_35](https://user-images.githubusercontent.com/96561825/173423252-dff3177a-433c-44c5-ae8d-113b08864073.png)
 
 
 #
 #
-
+#
 ## Ejercicio 2
 
 De forma individual ejecutamos los siguientes pasos:
@@ -169,7 +174,9 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 ![Screenshot_39](https://user-images.githubusercontent.com/96561825/173423522-c95a25b8-1473-46c4-a93e-ab7bdc11fd69.png)
 
-Esta nos va a permitir conectarnos a nuestra VM. Este método de conexión es válido tanto para nuestra VM como para cualquier equipo que esté ejecutando Linux y tenga habilitado el openssh-server.
+Esta nos va a permitir conectarnos a nuestra VM.
+
+Este método de conexión es válido tanto para nuestra VM como para cualquier equipo que esté ejecutando Linux y tenga habilitado el openssh-server.
 
 ![Screenshot_40](https://user-images.githubusercontent.com/96561825/173423555-76fcc9ef-0983-4078-9ccd-cd2bdb32d6ae.png)
 
