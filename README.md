@@ -46,7 +46,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ☁️ 25 > [Utilizacion de Process Explorer Para Analisis de Malware - Sysinternals](Days/day25.md)
 - [✔️] ☁️ 26 > [Comandos Utiles y Necesarios PowerShell - BootCamp DevOps](Days/day26.md)
 - [✔️] ☁️ 27 > [Analisis de Procesos en Memoria Virtual con VMMAP y en RAM (Monitoreo)](Days/day27.md)
-- [✔️] ☁️ 28 > [Analisis de Procesos  , Registro con ProcMon](Days/day28.md)
+- [✔️] ☁️ 28 > [Instalar Windows 7 en una VBOX](Days/day28.md)
 - [✔️] ☁️ 29 > [aaaaaaaaaaa) ](Days/day29.md)
 - [✔️] ☁️ 30 > [Instalar Windows 7 en una VBOX](Days/day30.md)
 - [✔️] ☁️ 31 > [Analisis de AutoRuns en Busqueda de Malware](Days/day31.md)
