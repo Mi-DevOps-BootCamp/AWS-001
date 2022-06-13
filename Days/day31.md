@@ -1,6 +1,11 @@
 # Introduccion a Desafios de Fase I del BootCamp DevOps Enginner.
+##
+
 
 ![Screenshot_43](https://user-images.githubusercontent.com/96561825/173430665-82d3ce92-e18e-4239-a26e-8ee4c1c3437d.png)
+
+#
+#
 
 Teniendo en cuenta el avance y la completitud de los ejercicios y actividades de los cursos activados en la plataforma de Alumni
 
@@ -42,7 +47,7 @@ y seleccionaremos JigSaw
 
 
 descargaremos este malware en NUESTRA MAQUINA VIRTUAL, esto quiere decir que este enlace y la descarga del mismo debe darse dentro de la VM con Windows
-
+#
 ## PRESTAR ATENCION A LO ENSEÑADO EN CLASE - 
 
 Las muestras de malware deben ser manipuladas de acuerdo a lo enseñado en clase y EducacionIT se desliga totalmente de cualquier responsabilidad, en el caso de una manipulacion irresponsable del mismo.
