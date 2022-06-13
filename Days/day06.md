@@ -1,16 +1,13 @@
 # Sysadmin Proactivo
-
-
-#
-#
 #
 
 
-# Configuración y Mantenimiento del sistema.
 
-Retomando los conceptos:
-
-# “La automatización de la infraestructura consiste en el uso de sistemas de software para crear instrucciones y procesos repetibles a fin de reemplazar o reducir la interacción humana con los sistemas de TI.”
+## Configuración y Mantenimiento del sistema.
+#
+### Retomando los conceptos:
+#
+## “La automatización de la infraestructura consiste en el uso de sistemas de software para crear instrucciones y procesos repetibles a fin de reemplazar o reducir la interacción humana con los sistemas de TI.”
 
 Plantea una visión muy amplia, ya que tiene que abarcar los diversos rubros de las empresas que poseen su área de sistema, según el tipo de organización en la que trabajamos es el grado de automatización con el que nos vamos a encontrar en la infraestructura de TI. 
 
@@ -111,6 +108,12 @@ El más popular es Python, ya que posee muchas librerías, es de fácil lectura 
 # Conclusión.
 Estas tecnologías expuestas para automatizar la infraestructura TI no son todas las que están en el mercado, sino una visión general de lo que hoy son las más populares. Hay que tener en cuenta que cada día se están desarrollando nuevas herramientas y metodologías de trabajo para cada para cada empresa, como también empresas que brindan el servicio de automatización outsourcing de la organización. Siempre hay que tomar la decisión en base a la necesidad, recursos disponibles y experiencia que cuenta la empresa.
 
+#
+#
+#
+#
+#
+Seguimos en el [Día 7](day7.md)
 
 
 
