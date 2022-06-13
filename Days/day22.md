@@ -123,18 +123,9 @@ Nos conectamos a nuestra VM y allí nuevamente consultamos por la IP con “ip a
 
 Ahora averiguar la IP de la VM, navegan y ¿qué ven como página de inicio?
 
-
-
-
-
-
-
-
 #
 #
 #
 #
 #
-
-
-See you on [Day23](day23.md)
+Seguimos en el [Día 23](day23.md)
