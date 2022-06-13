@@ -60,9 +60,8 @@ provee al usuario de herramientas, clases y métodos que le facilitan la tarea d
 17. Splunk es un software para buscar, monitorizar y analizar macrodatos generados por máquinas de aplicaciones, sistemas e infraestructura IT a través de una interfaz web. Splunk es la plataforma líder en Inteligencia operacional. Splunk busca, monitorea, analiza y visualiza grandes datos generados por máquinas, tales como: sitios web, aplicaciones, servidores, redes, sensores y dispositivos móviles.
 18. Nagios es un sistema de monitorización de redes ampliamente utilizado, de código abierto, que vigila los equipos y servicios que se especifiquen, alertando cuando el comportamiento de los mismos no sea el deseado.
 
-fin
 
-<#
+
 #
 # Varios elementos que no están en la gráfica.
 #        
