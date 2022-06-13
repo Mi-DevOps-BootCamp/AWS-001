@@ -1,8 +1,11 @@
 # Utilizacion de Process Explorer Para Analisis de Malware
+#
 ### Desafio BootCamp DevOps Enginner - FASE I -
+#
 ### Administracion de Windows Con Sysinternals
+#
 
-Para realizar este desafio Semanal , deberemos atender al documento que nos ayudara, el cual es este de aqui :https://docs.google.com/document/d/1652r3OF6INGyE5jCAH2D7KmLW6Up4vwXcQvZlV_Zhfk/edit?usp=sharing ( Si no podes acceder, pedile ayuda al tutor)
+Para realizar este desafio Semanal , deberemos atender al documento que nos ayudara, el cual es este de aqui :https://docs.google.com/document/d/1652r3OF6INGyE5jCAH2D7KmLW6Up4vwXcQvZlV_Zhfk/edit?usp=sharing 
 
 En el siguiente desafio, debemos tomar capturas de pantalla y enviarlas al tutor mediante el drive consignado para las entregas por alumno, ordenado por carpeta, fase y nombre del desafio, de lo siguiente.
 
@@ -37,6 +40,4 @@ Aqui debes encontrar un proceso que de acuerdo a los criterios de busqueda de Ma
 #
 #
 #
-
-
-See you on [Day 26](day26.md)
+Seguimos en el [Día 26](day26.md)
