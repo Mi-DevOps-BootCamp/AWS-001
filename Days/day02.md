@@ -19,15 +19,13 @@ Organización del bootcamp
 
 #● Fase 5: Empleabilidad
 
+
 #
 #
 #
 #
-
-
-
-
-Nos vemos en el [Dia 3](day03.md).  
+#
+Seguimos en el [Día  3](day03.md).  
 
 
 
