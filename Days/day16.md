@@ -30,7 +30,7 @@ Process Explorer puede darle mucha más información y control sobre todas las a
 
 El Explorador de Procesos puede rastrear una aplicación hasta el último archivo DLL que esté usando.
 
-****Process Explorer se ejecuta sin instalación, simplemente tienes que ejecutar un archivo muy pequeño haciéndolo portátil. En esta guía, compararemos el Administrador de Tareas con el Explorador de Procesos si desea usar el Explorador de Procesos, esta guía le ayudará.****
+***Process Explorer se ejecuta sin instalación, simplemente tienes que ejecutar un archivo muy pequeño haciéndolo portátil. En esta guía, compararemos el Administrador de Tareas con el Explorador de Procesos si desea usar el Explorador de Procesos, esta guía le ayudará.***
 
 
 El Administrador de tareas puede ser utilizado por un usuario para saber qué aplicaciones, procesos, servicios se están ejecutando y también para controlar su prioridad y el número de procesadores que pueden utilizar (afinidad).
@@ -47,13 +47,17 @@ Si quieres probar las características que aparecen a continuación también, te
 
 #
 #
-# Interfaz de usuario avanzada
+## Interfaz de usuario avanzada
 
 El administrador de tareas se ha mantenido prácticamente igual en términos de interfaz de usuario. 
 
 Un usuario puede encontrar especialmente confusas las pestañas de proceso si está buscando un único proceso objetivo para supervisar o matar o para ver qué aplicación lo está utilizando. Todos los procesos se verían igual a un ojo menos experto en tecnología.
 
-El Explorador de Procesos es una clara victoria en este caso. Separa con cuidado y precisión los procesos centrales del sistema en color rosa y sus propios procesos iniciados manualmente en color azul. Todos los procesos tendrían su icono asociado junto a ellos y su descripción también.
+El Explorador de Procesos es una clara victoria en este caso. 
+
+Separa con cuidado y precisión los procesos centrales del sistema en color rosa y sus propios procesos iniciados manualmente en color azul. 
+
+Todos los procesos tendrían su icono asociado junto a ellos y su descripción también.
 
 Además, su vista de árbol organiza los procesos de tal manera que se puede conocer fácilmente el proceso padre de un proceso objetivo en el que se está ejecutando.
 
@@ -67,7 +71,7 @@ Los gráficos de monitorización de la CPU, la GPU, la red y el disco también s
 
 #
 #
-# Desbloquear archivos y carpetas
+## Desbloquear archivos y carpetas
 
 El Explorador de Procesos también es una gran herramienta para la resolución de problemas. 
 
@@ -101,7 +105,7 @@ Seleccione cada proceso en los resultados y ciérrelos volviendo a la ventana de
 
 #
 #
-# Información detallada/Análisis
+## Información detallada/Análisis
 
 
 En la ventana Process Explorer , haga doble clic en el proceso para ver su información detallada.En la ventana de propiedades, puede ver su ubicación, el directorio temporal actual, la ubicación de inicio automático (si está configurado para ejecutarse automáticamente), el uso detallado de los recursos informáticos agrupados en red, el uso del disco y la CPU y mucho más.
@@ -122,7 +126,7 @@ En la ventana Process Explorer , haga doble clic en el proceso para ver su infor
 
 #
 #
-# Proceso de la aplicación de rastreo
+## Proceso de la aplicación de rastreo
 
 Si desea rastrear un proceso, y su archivo asociado, simplemente arrastre el icono de la cruz a la aplicación y le mostrará todos los procesos relacionados/ asociados.
 
@@ -142,7 +146,7 @@ Si desea rastrear un proceso, y su archivo asociado, simplemente arrastre el ico
 
 #
 #
-# Comprobación del proceso / Total de virus
+## Comprobación del proceso / Total de virus
 
 El Explorador de Procesos puede escanear el proceso en línea, y también puede buscar virus en el proceso.
 
@@ -152,7 +156,7 @@ El Explorador de Procesos puede escanear el proceso en línea, y también puede 
 
 #
 #
-# Accesibilidad / Atajos
+## Accesibilidad / Atajos
 
 El Administrador de Tareas está incorporado en Windows y hay varias formas de acceder a él, como los siguientes atajos de teclado.
 
