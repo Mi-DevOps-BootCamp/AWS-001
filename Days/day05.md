@@ -83,7 +83,7 @@ Algunos ejemplos
 #
 #
 #
-Seguimos en el [Día 6] (day05.md).
+Seguimos en el [Día 6](day 06.md).
 
 
 
