@@ -1,13 +1,12 @@
 
-prueba
 # Comandos útiles en la terminal de Linux (Parte 2)
+#
+### Índice
 
-Índice
-
-1. Escenario
-2. El comando Curl
-3. El comando Jq
-4. Combinación de uso de ambos comandos
+### 1. Escenario
+### 2. El comando Curl
+### 3. El comando Jq
+### 4. Combinación de uso de ambos comandos
 
 #
 
@@ -148,13 +147,13 @@ En este caso, vemos cómo la sentencia obtiene el JSON con curl, lo procesa con 
 
 ![Screenshot_444](https://user-images.githubusercontent.com/96561825/170146630-af88967d-b36b-4323-8715-9a93768236b0.png)
 
-Fin
-
-#
-#
-#
-#
-#
 
 
-See you on [Day 10](day10.md).
+#
+#
+#
+#
+#
+
+
+Seguimos en el [Día 10](day10.md).
