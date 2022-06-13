@@ -1,216 +1,157 @@
-# Aqui encontraran una lista de los Comandos mas importantes y Utiles para realizar los desafios del Bootcamp, tanto de los Desafios como del material de Alumni.
 
-Comenzemos.
+# Analisis de AutoRuns en Busqueda de Malware
 
-## 1. Get-Help 
+## Malware Hunting con AutoRuns
 
-Si eres nuevo en PowerShell, puedes tener problemas; y en tales situaciones, Get-Help se convierte en tu salvador. Proporciona la información necesaria sobre cmdlets,
-comandos, funciones, scripts y flujos de trabajo de PowerShell.
+### Cómo utilizar Autoruns para Detectar Malware
+# 
 
-Además, es fácil: necesitas escribir Get-Help seguido del comando, del cual, buscas los detalles. Por ejemplo, puedes obtener información sobre el uso de “Get-Process”, usando:Get-Help Get-Process
 
 
-![Screenshot_5](https://user-images.githubusercontent.com/96561825/172929076-83f3144b-cdb0-4d7c-81b5-05a3f36cacde.png)
+En este desafio continuamos la tecnica de Malware Hunting sobre el Malware JigSaw de nuestra FASE I 
 
+En este desafio, el cual una vez finalizado debemos cargarlo en el drive consignado por el tutor, junto con las capturas de pantalla y la explicacion, seguiremos analizando nuestra VM en busqueda de rastros y muestras de la ejecucion de JIGSAW, nuestra muestra de Malware elegida para esta ocasion.
 
+Comenzemos!
 
+Vamos a comenzar con las nociones básicas para aprender a utilizar Autoruns:
 
-## 2. Get-Command
+Al entrar en Autoruns, aparecerán todos los procesos que se ejecutan automáticamente en el arranque del ordenador. No obstante, es importante recordar que no mostrará los programas y procesos que Microsoft ha integrado para que se ejecuten en el arranque del PC.
 
-Windows PowerShell permite descubrir sus comandos y características mediante Get-Command. Muestra la lista de comandos de una función específica o para un propósito específico basado en tu parámetro de búsqueda.
+#
+# Interfaz
 
-Solo necesitas escribir Get-Command seguido de tu consulta de búsqueda en PowerShell.
+![Screenshot_2](https://user-images.githubusercontent.com/96561825/173206142-e6a6fc75-2029-4819-a20d-b3ea053249f8.png)
 
-Por ejemplo,
-Get-Command *-service*
 
-muestra comandos que llevan “-service” en su nombre. Recuerda utilizar los asteriscos en ambos lados de la consulta porque es un comodín que ayuda a buscar lo desconocido.
 
-Comando Get-Command en PowerShell
 
-![Screenshot_6](https://user-images.githubusercontent.com/96561825/172929132-ca1fcced-a006-432b-a130-90c32b0cf3c9.png)
+Ante todo, debemos admitir que Autoruns no tiene una interfaz intuitiva ni agradable a la vista. 
 
+### Es una ventana repleta de pestañas y botones que generan confusión al usuario. Visualmente, parece un programa creado para programadores.
 
+Sin embargo, no es difícil de utilizar después de conocerlo. Solo debes tomarte un tiempo para navegar en el software y conocer sus diferentes funciones
 
 
-## 3. Invoke-Command
+#
+## Deshabilitar procesos
 
-Cuando desees ejecutar un comando o un script de PowerShell, local o remotamente en una o varias computadoras, “Invoke-Command” es tu amigo. Es fácil de usar y te ayuda a controlar las computadoras por lotes.
+![Screenshot_3](https://user-images.githubusercontent.com/96561825/173206167-cfb29ed8-34e9-41f4-9db1-02738d91b256.png)
 
-Deberás escribir Invoke-Command seguido del comando o la secuencia de comandos con su ruta completa. Por ejemplo, puedes ejecutar un comando “Get-EventLog” usando:
 
-Invoke-Command -ScriptBlock {Get-EventLog system -Newest 50}
 
-o en una computadora remota “Server01” usando:
+Para desactivar cualquier proceso, solo deberás marcar en la casilla junto al elemento y listo. Repite el procedimiento con todos los elementos de la lista que no necesites para el inicio del ordenador. Reinicia el equipo para que los cambios surtan efecto.
 
-Invoke-Command -ScriptBlock {Get-EventLog system -Newest 50} -ComputerName Server01 
+#
+# Validación de firmas de código
 
-En el ejemplo anterior: “Server01” representa el nombre de la PC remota o la dirección IP.
+![Screenshot_4](https://user-images.githubusercontent.com/96561825/173206183-f4263287-2e14-490c-9e96-1c3fb4305e76.png)
 
-“Get-EventLog system -Newest 50” es el comando que desea ejecutar.
 
+Cuando navegues en el menú de opciones encontrarás una función de gran utilidad: ***Verify Code Signatures (Verificación de firmas de código).***
 
+Así sabrás si una firma digital está analizada o verificada. Generalmente, los elementos marcados en rosa no están verificados.
 
-## 4. Invoke-Expression
 
-Invoke-Expression proporciona una forma de ejecutar un script desde Windows PowerShell, además puede ejecutar una función por una variable. Si estás proporcionando una expresión o una cadena como entrada, este comando primero la evalúa, luego la ejecuta, pero también funciona localmente, a diferencia del comando
-anterior.
+#
+# Logon
 
-Invoke-Expression c:\scripts\prueba.ps1
+![Screenshot_5](https://user-images.githubusercontent.com/96561825/173206195-07ff282a-0769-4fe4-ad41-6060dc541bbe.png)
 
-Debes escribir Invoke-Expression seguido de un comando o una expresión. Por ejemplo, puedes asignar una variable “$Comando” con una cadena que indique el comando
-“Get-Process“. El siguiente comando ejecuta “Get-Process” como un comando en tu computadora local.
+Muestra los procesos que se ejecutan automáticamente al arrancar el ordenador. Aquí puedes elegir algunos elementos para que se ejecuten desde el inicio y bloquear los procesos inservibles.
 
-$Comando="Get-Process"
-Invoke-Expression $Comando
 
+#
+# Explorer
 
-![Screenshot_7](https://user-images.githubusercontent.com/96561825/172929156-10625e55-32fc-430f-baf3-a07ea24753eb.png)
+![Screenshot_6](https://user-images.githubusercontent.com/96561825/173206220-6a10a66a-c706-4204-8ed7-ea8cb8a638aa.png)
 
+Muestra los componentes complementarios que se pueden cargar de forma automática en el Explorador de Windows.
 
+#
+# Internet Explorer
 
-## 5. Invoke-WebRequest
+![Screenshot_7](https://user-images.githubusercontent.com/96561825/173206231-086bd6c5-0eef-4bd4-8bb4-b0189ee65a0f.png)
 
-Puede descargar, iniciar sesión y buscar información sobre sitios web y servicios web mientras trabajas en Windows PowerShell utilizando Invoke-WebRequest.
-Debe usar Invoke-WebRequest seguido de sus parámetros. Por ejemplo, puedes obtener los enlaces en una página web dada usando el siguiente comando: (Invoke-WebRequest -Uri "https://esgeeks.com").Links.Href
 
-![Screenshot_8](https://user-images.githubusercontent.com/96561825/172929174-48553f84-1fab-4121-9f12-daad357c984a.png)
+### Es una herramienta que refuerza la seguridad del PC.
 
+Muestra las barras de herramientas, las extensiones y los objetos auxiliares del navegador que suelen utilizar los piratas informáticos para espiar a sus víctimas.
 
-## 6. Set-ExecutionPolicy 
 
-Aunque la creación y ejecución de scripts (que tienen la extensión “ps1“) en Windows PowerShell es posible; existen restricciones por motivos de seguridad. Así que puedes cambiar el nivel de seguridad utilizando el comando Set-ExecutionPolicy.
-Puedes escribir Set-ExecutionPolicy seguido de uno de los cuatro niveles de seguridad: 
+#
+# Servicios
 
-Restricted, Remote Signed, All Signed, o Unrestricted. Por ejemplo, puedes asignar el estado de política restringida usando:
-Set-ExecutionPolicy -ExecutionPolicy Restricted
+![Screenshot_8](https://user-images.githubusercontent.com/96561825/173206251-69cbc7cc-c0e2-4416-95aa-335a440b0bbc.png)
 
 
-![Screenshot_9](https://user-images.githubusercontent.com/96561825/172929194-43f4534d-9151-4c13-ac19-4d9cecdd856c.png)
+Aquí están los servicios que suelen utilizar los malwares para disfrazar su identidad. Debes tener cuidado de no desactivar elementos importantes para el funcionamiento de Windows.
 
 
+#
+# Drivers
 
-## 7. Get-Item 
+![Screenshot_9](https://user-images.githubusercontent.com/96561825/173206260-0f7e4a2d-113f-4ada-b065-544d749eac77.png)
 
-Si buscas información sobre un elemento en cualquier ubicación determinada, por ejemplo, un archivo de tu disco duro, Get-Item es la mejor manera de conseguirlo en Windows PowerShell. Debes saber que no obtienes el contenido del elemento, como archivos y subdirectorios en un directorio determinado, a menos que lo especifiques explícitamente.
 
-Debes escribir Get-Item seguido de una ruta o una cadena junto con sus parámetros, si corresponde. Por ejemplo, puedes usar todos los elementos (archivos o carpetas) que comiencen con “M” en el directorio actual, así:Get-Item M*
 
+Aparecerán los controladores que puedan estar infectados por un malware u otra amenaza informática.
 
-![Screenshot_10](https://user-images.githubusercontent.com/96561825/172929258-028a6bc5-dfb6-4cff-a275-86a811c88eda.png)
 
 
+#
+#
+# Cómo limpiar manualmente un PC infectado
 
 
-## 8. Copy-Item 
+Con Autoruns puedes eliminar potenciales amenazas del ordenador. 
 
-Si necesitas copiar archivos y directorios en tu disco de almacenamiento o entradas y claves de registro, puedes usar Copy-Item. Funciona de manera similar al comando “cp” que tenemos en el Símbolo del sistema, pero es mucho mejor.
+***Debes desmarcar la casilla junto al proceso que quieres inhabilitar temporalmente. Si quieres desbloquear de forma permanente un programa, puedes hacer clic derecho sobre el elemento y eliminarlo.***
 
-También puede utilizar el comando Copy-Item para copiar y cambiar el nombre de los elementos en el mismo comando; proporcionando un nuevo nombre como destino. Por
-ejemplo, puedes copiar y renombrar “Geek.htm” a “Geeks.txt”, usando: Copy-Item "Geek.htm" -Destination "D:\BLOG\Geeks.txt"
+***Nota:*** de esa manera el software solo quedará inactivo, más no desinstalado del PC. Para borrar un programa del ordenador deberás desinstalarlo en el Panel de Control.
 
 
-## 9. Remove-Item
+#
+# Cómo detectar softwares sospechosos
 
-Si deseas eliminar elementos como archivos, carpetas, funciones, claves de registro y variables, Remove-Item es el comando ideal. Lo que me pareció interesante es que proporciona parámetros para incluir y excluir elementos.
+![Screenshot_10](https://user-images.githubusercontent.com/96561825/173206281-5ef3429e-9c45-4129-a958-31e938e079c1.png)
 
-Puedes utilizar el comando Remove-Item para eliminar elementos de ubicaciones específicas mediante parámetros. Por ejemplo, puedes eliminar el archivo “Geek.txt” con el comando: Remove-Item "C:\Users\Alex\Desktop\Geek.txt"
 
-## 10. Get-Content
+En ocasiones, hace falta un poco de experiencia para saber qué software representa un peligro y cual no. 
 
-Cuando necesitas ver el contenido de un archivo de texto en un lugar específico, puedes abrir y leerlo en un editor de código/texto como Notepad++. 
+***La mayoría de los elementos que muestra Autoruns son programas legítimos***, aunque sean desconocidos para ti. 
 
-En Windows PowerShell, puedes usar Get-Content para recuperar el contenido sin abrir el archivo.
+Veamos algunos tips que te ayudarán a diferenciar los softwares legítimos, de aquellos que no lo son.
 
-Por ejemplo, puedes recuperar 50 líneas de contenido de “Geek.txt”, así: Get-Content "C:\Users\Alex\Desktop\Geek.txt" -TotalCount 50
+- Si un elemento está firmado digitalmente por una compañía o tiene una descripción, lo más probable es que sea legítimo
 
+- Si el nombre del software te suena familiar, generalmente no hay ningún problema
 
-## 11. Set-Content
+- Los programas maliciosos ***se suelen “disfrazar” con nombres similares a los softwares legítimos***, como “WhatsAppLaucher” o “PhotoshopJump”. Si encuentras elementos de ese tipo, es probable que el ordenador haya sido atacado por un virus
 
-Puedes guardar texto en archivos usando Set-Content, similar al comando “echo” del Bash Shell. En combinación con Get-Content, también puedes recuperar el contenido de un archivo y copiarlo en otro archivo usando este comando.
+- Generalmente, los malwares aparecen en la pestaña “Logon”, aunque no siempre ocurre así
 
-Por ejemplo, puedes usar Set-Content para escribir o reemplazar el contenido de un archivo con contenido nuevo. Además, puedes agruparlo con el ejemplo del comando anterior para guardar su salida en un nuevo archivo llamado “EsGeeks.txt”, usando: Get-Content "C:\Users\Alex\Desktop\Geek.txt" -TotalCount 50 | Set-Content
-"C:\Users\Alex\Desktop\EsGeeks.txt"
+- Los virus y malwares se suelen esconder en esta carpeta: C:\Windows\System32. Revísala frecuentemente
 
+- Los archivos riesgosos tienden a estar acompañados de un icono genérico
 
-## 12. Get-Variable
+#
+# Eliminando el malware
 
-Si estás buscando usar variables en Windows PowerShell, el comando Get-Variable te ayuda a visualizar los valores de las variables. Los muestra en forma de tabla y permite incluir, excluir y usar comodines.
 
-Puedes usar este comando escribiendo Get-Variable seguido de sus opciones y parámetros. Por ejemplo, se puede recuperar el valor de una variable llamada “Var” usando
-el siguiente código:
+![Screenshot_11](https://user-images.githubusercontent.com/96561825/173206291-6fad5177-07af-4139-857e-c84ae96c48f3.png)
 
-$Var="Get-Process"
-Get-Variable -Name "Var"
 
+Ahora que has reconocido las entradas que son sospechosas, tienes las siguientes opciones:
 
+- Desactívalas temporalmente
 
-## 13. Set-Variable
+- Elimínalas de forma permanente
 
-Puedes asignar, cambiar o restablecer el valor de una variable usando el comando Set-Variable. Como atajo, también puedes establecer una variable simple usando el
-formato {$NombreVar = ValorVar}, algo como $var = “Descripción”.
+- ***Erradica el archivo EXE o DLL del ordenador*** . Otra opción, muévelo a una carpeta en la que no se inicie de forma automática
 
-Puedes usar el comando Set-Variable seguido de sus parámetros para establecer una variable. Por ejemplo, podemos establecer el valor para una variable llamada “var” usando el comando: Set-Variable -Name "var" -Value "Descipción"
 
 
-![Screenshot_11](https://user-images.githubusercontent.com/96561825/172929288-7897f95d-6069-47af-b9b8-d02cdf18dec7.png)
-
-
-
-## 14. Get-Process
-
-Usualmente usamos el Administrador de tareas para encontrar los procesos en ejecución de nuestra computadora. En Windows PowerShell, cualquier usuario puede usar Get-Process para obtener la lista de los procesos que se están ejecutando actualmente.
-
-Puedes escribir el comando Get-Process junto con tu consulta de búsqueda. Por ejemplo, si necesitas información sobre los procesos con el nombre “explore”, puedes escribir lo siguiente: (ten en cuenta los asteriscos) Get-Process *explore*
-
-## 15. Start-Process
-
-Windows PowerShell facilita el inicio de uno o más procesos en tu computadora. Descubrí que este comando es útil en las aplicaciones de scripting, ya que es uno de los comandos imprescindibles que necesitarás para automatizar una tarea.
-
-Puedes escribir Start-Process seguido de sus parámetros para usar el comando. Por ejemplo, puedes iniciar el Bloc de notas escribiendo lo siguiente: Start-Process -FilePath "notepad" -Verb runAs
-
-
-## 16. Stop-Process
-
-Puedes detener instancias específicas o todas las instancias de un proceso que se ejecuta en tu computadora utilizando su nombre o PID (ID de proceso), gracias al comando Stop-Process. Lo que lo hace atractivo es que puede detectar un proceso detenido o no, e incluso puede detener los procesos que el usuario actual no posee ni inicia.
-
-Puedes escribir el comando Stop-Process seguido de sus parámetros para detener los procesos dados. Por ejemplo, puedes detener todos los procesos de Bloc de notas usando el comando: Stop-Process -Name "notepad"
-
-
-
-## 17. Get-Service
-
-Cuando necesites información sobre servicios específicos (en ejecución o detenidos) en tu computadora, puedes usar Get-Service. Muestra los servicios instalados en tu sistema y proporciona opciones para filtrarlos, incluirlos y excluirlos.
-
-Si deseas utilizar este comando, puedes escribir Get-Service seguido de sus parámetros.
-
-Por ejemplo, escribe lo siguiente para obtener los servicios “en ejecución” de tu sistema: Get-Service | Where-Object {$_.Status -eq "Running"}
-
-
-![Screenshot_12](https://user-images.githubusercontent.com/96561825/172929308-01edda59-3324-4bcd-a82a-63fb95e09717.png)
-
-
-
-## 18. Start-Service
-
-Si deseas iniciar un servicio en tu computadora, el comando Start-Service puede ayudarte a hacer lo mismo desde Windows PowerShell. Descubrí que es lo suficientemente potente como para iniciar un servicio, incluso si ese servicio está desactivado en tu computadora.
-
-Debes especificar el nombre del servicio mientras usas el comando Start-Service. Por ejemplo, el siguiente comando inicia el servicio “Búsqueda de Windows” en tu computadora local: Start-Service -Name "WSearch" 
-
-
-## 19. Stop-Service
-
-Si deseas detener la ejecución de servicios en tu computadora, el comando Stop-Service será útil. Debes especificar el nombre del servicio junto con Stop-Service. Por ejemplo, escribe lo siguiente para detener el servicio “Búsqueda de Windows” en tu computadora: Stop-Service -Name "WSearch"
-
-
-## 20. ConvertTo-HTML 
-
-PowerShell puede proporcionar información asombrosa sobre tu sistema. Sin embargo, lo presenta principalmente en un formato ‘indigerible’, por eso puedes usar ConvertTo-HTML para crear y formatear un informe y analizarlo o enviarlo a alguien.
-
-Puedes usar ConvertTo-HTML junto con la salida de otro comando usando pipes (|). Por ejemplo, el siguiente comando muestra la lista de todos los servicios, y su estado, en forma de un informe web, que se almacena en el archivo “Servicios.htm”: Get-Service | ConvertTo-HTML -Property Name, Status > C:\Users\Gino\Desktop\Servicios.htm
-
-
-fin
 
 #
 #
@@ -218,8 +159,4 @@ fin
 #
 #
 
-
-
-
-
-See you on [Day 30](day30.md)
+Seguimos en el [Día 30](day30.md)
