@@ -157,7 +157,7 @@ Análisis dinámico y estático de malware activo y real en un entorno seguro en
 
 ● Al utilizar ANY.RUN + Mitre Att&ack obtenemos un informe por escrito con todos los detalles del ataque.
 
-A su vez ayudamos a la comunidad a poder estudiar formas más efectivas de protección, aprendiendo del comportamiento de las amenazas.
+● A su vez ayudamos a la comunidad a poder estudiar formas más efectivas de protección, aprendiendo del comportamiento de las amenazas.
 
 ● Encripta archivos personales y elimina pide pago.
 
