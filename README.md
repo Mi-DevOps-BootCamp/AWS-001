@@ -53,7 +53,7 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ☁️ 32 > [SysinternalsSuite.zip ](Days/day32.md)
 - [✔️] ☁️ 33 > [Sysinternals Video Library  01](Days/day33.md)
 - [✔️] ☁️ 34 > [Sysinternals Video Library  02](Days/day34.md)
-- [✔️] ☁️ 35 > [0](Days/day35.md)
+- [✔️] ☁️ 35 > [CASO DE ESTUDIO: JIGSAW ](Days/day35.md)
 - [✔️] ☁️ 36 > [0](Days/day36.md)
 - [✔️] ☁️ 37 > [0](Days/day37.md)
 - [✔️] ☁️ 38 > [0](Days/day38.md)
