@@ -149,6 +149,8 @@ Análisis dinámico y estático de malware activo y real en un entorno seguro en
 #
 
 ### CONCLUSIONES
+#
+
 ● Utilizando la Suite Sysinternal de Microsoft, se nos permite identificar el comportamiento del Ransomware
 
 ● Contar con un entorno controlado es esencial, ya que limitamos el daño del Ransomware y nos permite comprender su comportamiento dentro del SO.
