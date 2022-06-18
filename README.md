@@ -1,117 +1,143 @@
-# Mis Desafios de la Fase II
-
-
- ![Screenshot_330](https://user-images.githubusercontent.com/105083569/167223748-bc800af0-3529-4b80-8418-8ad53aec03c3.png)
-
+# Entrevista 
 
 Este repositorio es usado como un documento de mi viaje a traves del Bootcamp 
  
  
- 
- 
- 
- 
- 
- 
-## Desafios 
+## AWS 
 
-- [✔️] ♾️ 1 > [Introduction](Days/day01.md)
-- [✔️] ♾️ 2 > [01   Creacion de Cuenta - MFA - Alarma de Gastos -    ( Desafio 1 - AWS - Semana 1) ](Days/day02.md)
-- [✔️] ♾️ 3 > [02   Crea tu Maquina Virtual en Compute Engine e Instala Apache - ( Desafio 2 - Semana 1)  ](Days/day03.md)
-- [✔️] ♾️ 4 > [03   Maquinas Virtuales en Azure - Desafio Azure - ( Desafio 1 - Semana 1)  ](Days/day04.md)
-- [✔️] ♾️ 5 > [04   Sitio Estatico en AWS -  ( Desafio 2 AWS - Semana 1)  ](Days/day05.md)
-- [✔️] ♾️ 6 > [05   Desafio Cloud Storage - Crear Bucket](Days/day06.md)
-- [✔️] ♾️ 7 > [06   Creacion Instancia EC2 Con User Script -  ( Desafio AWS - Semana 2 - Desafio 1 ) ](Days/day07.md)
-- [✔️] ♾️ 8 > [07   Desafio AWS - Desafio 2 Semana 2 - VPC - SG](Days/day08.md)
-- [✔️] ♾️ 9 > [08   Desafio Creacion de VPC - GCP](Days/day09.md)
-- [✔️] ♾️ 10 > [09   Desafio 3 - Semana 2  - Bases de Datos con RDS en AWS](Days/day10.md)
-- [✔️] ♾️ 11 > [10   Desafio Final  - Trabajo Integrador Google Cloud Platform](Days/day11.md)
-- [✔️] ♾️ 12 > [Desafio Pre Final  - Creando Clusters en GKE - GCP](Days/day12.md)
-- [✔️] ♾️ 13 > [0](Days/day13.md)
+- [✔️] ♾️ 1 > [1.	S3](Days/day01.md)
+- [✔️] ♾️ 2 > [2.	EC2](Days/day02.md)
+- [✔️] ♾️ 3 > [3.	EBS](Days/day03.md)
+- [✔️] ♾️ 4 > [4.	Autoscaling groups](Days/day04.md)
+- [✔️] ♾️ 5 > [5.	Load balancers](Days/day05.md)
+- [✔️] ♾️ 6 > [6.	RDS](Days/day06.md)
+- [✔️] ♾️ 7 > [7.	Route53](Days/day07.md)
+- [✔️] ♾️ 8 > [8.	CloudFormation](Days/day08.md)
+- [✔️] ♾️ 9 > [8.	CloudFormation](Days/day09.md)
+- [✔️] ♾️ 10 > [9.	VPC](Days/day10.md)
+- [✔️] ♾️ 11 > [10.	ECS](Days/day11.md)
+- [✔️] ♾️ 12 > [11.	ECR](Days/day12.md)
+- [✔️] ♾️ 13 > [13.	CloudWatch](Days/day13.md)
+- [✔️] 🐧 14 > [14.	CloudTrail](Days/day14.md)
 
-### Knowing Linux Basics
 
-- [✔️] 🐧 14 > [The Big Picture: DevOps and Linux](Days/day14.md)
-- [✔️] 🐧 15 > [Linux Commands for DevOps (Actually everyone)](Days/day15.md)
-- [✔️] 🐧 16 > [Managing your Linux System, Filesystem & Storage](Days/day16.md)
-- [✔️] 🐧 17 > [Text Editors - nano vs vim](Days/day17.md)
-- [✔️] 🐧 18 > [SSH & Web Server(LAMP)](Days/day18.md)
-- [✔️] 🐧 19 > [Automate tasks with bash scripts](Days/day19.md)
-- [✔️] 🐧 20 > [Dev workstation setup - All the pretty things](Days/day20.md)
+### GCP Google Cloud Platform
 
-### Understand Networking
+- [✔️] 🐧 15 > [1.	Compute Engine](Days/day15.md)
+- [✔️] 🐧 16 > [2.	Compute Engine](Days/day16.md)
+- [✔️] 🐧 17 > [3.	Container Registry](Days/day17.md)
+- [✔️] 🐧 18 > [4.	Load Balancing](Days/day18.md)
+- [✔️] 🐧 19 > [5.	Cloud DNS](Days/day19.md)
+- [✔️] 🐧 20 > [6.	Cloud SQL](Days/day20.md)
+- [✔️] 🌐 21 > [7.	Cloud Storage](Days/day21.md)
+- [✔️] 🌐 22 > [8.	Cloud NAT](Days/day22.md)
+- [✔️] 🌐 23 > [9.	Cloud VPN](Days/day23.md)
+- [✔️] 🌐 24 > [10.	VPC](Days/day24.md)
 
-- [✔️] 🌐 21 > [The Big Picture: DevOps and Networking](Days/day21.md)
-- [✔️] 🌐 22 > [The OSI Model - The 7 Layers](Days/day22.md)
-- [✔️] 🌐 23 > [Network Protocols](Days/day23.md)
-- [✔️] 🌐 24 > [Network Automation](Days/day24.md)
-- [✔️] 🌐 25 > [Python for Network Automation](Days/day25.md)
-- [✔️] 🌐 26 > [Building our Lab](Days/day26.md)
-- [✔️] 🌐 27 > [Getting Hands-On with Python & Network](Days/day27.md)
+### Automatización de configuración e infraestructura
 
-### Stick to one Cloud Provider
+- [✔️] 🌐 25 > [1	Terraform](Days/day25.md)
+- [✔️] 🌐 26 > [2	Ansible](Days/day26.md)
+- [✔️] 🌐 27 > [Puppet (No recomendado)](Days/day27.md)
 
-- [✔️] ☁️ 28 > [The Big Picture: DevOps & The Cloud](Days/day28.md)
-- [✔️] ☁️ 29 > [Microsoft Azure Fundamentals](Days/day29.md)
-- [✔️] ☁️ 30 > [Microsoft Azure Security Models](Days/day30.md)
-- [✔️] ☁️ 31 > [Microsoft Azure Compute Models](Days/day31.md)
-- [✔️] ☁️ 32 > [Microsoft Azure Storage & Database Models](Days/day32.md)
-- [✔️] ☁️ 33 > [Microsoft Azure Networking Models + Azure Management](Days/day33.md)
-- [✔️] ☁️ 34 > [Microsoft Azure Hands-On Scenarios](Days/day34.md)
+
+### Contenedores y orquestación
+
+
+- [✔️] ☁️ 28 > [1.	Como hacer imágenes Docke](Days/day28.md)
+- [✔️] ☁️ 29 > [2.	Estructura de un Dockerfile](Days/day29.md)
+- [✔️] ☁️ 30 > [3.	Crear imagen desde cero](Days/day30.md)
+- [✔️] ☁️ 31 > [4.	Comandos básicos](Days/day31.md)
+- [✔️] ☁️ 32 > [5.	Como usar docker-compose](Days/day32.md)
+- [✔️] ☁️ 33 > [6.	Optimizacion](Days/day33.md)
+- [✔️] ☁️ 34 > [7.	Como funciona el docker multistage](Days/day34.md)
+
+
+
+
+
 
 ### Use Git Effectively
 
-- [✔️] 📚 35 > [The Big Picture: Git - Version Control](Days/day35.md)
-- [✔️] 📚 36 > [Installing & Configuring Git](Days/day36.md)
-- [✔️] 📚 37 > [Gitting to know Git](Days/day37.md)
-- [✔️] 📚 38 > [Staging & Changing](Days/day38.md)
-- [✔️] 📚 39 > [Viewing, unstaging, discarding & restoring](Days/day39.md)
-- [✔️] 📚 40 > [Social Network for code](Days/day40.md)
-- [✔️] 📚 41 > [The Open Source Workflow](Days/day41.md)
+- [✔️] 📚 35 > [8.	Docker registry](Days/day35.md)
+- [✔️] 📚 36 > [Kubernetes  -  ](Days/day36.md)
+- [✔️] 📚 37 > [1.	Informacion general](Days/day37.md)
+- [✔️] 📚 38 > [2.	Conceptos básicos](Days/day38.md)
+- [✔️] 📚 39 > [3.	Tipos](Days/day39.md)
+- [✔️] 📚 40 > [4	Como desplegar Kubernetes](Days/day40.md)
+- [✔️] 📚 41 > [5 Comandos básicos](Days/day41.md)
+- [✔️] 🏗️ 42 > [Helm](Days/day42.md)
 
-### Containers 
 
-- [✔️] 🏗️ 42 > [The Big Picture: Containers](Days/day42.md)
-- [✔️] 🏗️ 43 > [What is Docker & Getting installed](Days/day43.md)
-- [✔️] 🏗️ 44 > [Docker Images & Hands-On with Docker Desktop](Days/day44.md)
-- [✔️] 🏗️ 45 > [The anatomy of a Docker Image](Days/day45.md)
-- [✔️] 🏗️ 46 > [Docker Compose](Days/day46.md)
-- [✔️] 🏗️ 47 > [Docker Networking & Security](Days/day47.md)
-- [✔️] 🏗️ 48 > [Alternatives to Docker](Days/day48.md)
 
-### Kubernetes
+### CI/CD
 
-- [✔️] ☸ 49 > [The Big Picture: Kubernetes](Days/day49.md)
-- [✔️] ☸ 50 > [Choosing your Kubernetes platform ](Days/day50.md)
-- [✔️] ☸ 51 > [Deploying your first Kubernetes Cluster](Days/day51.md)
-- [✔️] ☸ 52 > [Setting up a multinode Kubernetes Cluster](Days/day52.md)
-- [✔️] ☸ 53 > [Rancher Overview - Hands On](Days/day53.md)
-- [✔️] ☸ 54 > [Kubernetes Application Deployment](Days/day54.md)
-- [✔️] ☸ 55 > [State and Ingress in Kubernetes](Days/day55.md)
+- [✔️] 🏗️ 43 > [General](Days/day43.md)
+- [✔️] 🏗️ 44 > [Jenkins](Days/day44.md)
 
-### Learn Infrastructure as Code
 
-- [✔️] 🤖 56 > [The Big Picture: IaC](Days/day56.md)
-- [✔️] 🤖 57 > [An intro to Terraform ](Days/day57.md)
-- [✔️] 🤖 58 > [HashiCorp Configuration Language (HCL)](Days/day58.md)
-- [✔️] 🤖 59 > [Create a VM with Terraform & Variables](Days/day59.md)
-- [✔️] 🤖 60 > [Docker Containers, Provisioners & Modules](Days/day60.md)
-- [✔️] 🤖 61 > [Kubernetes & Multiple Environments](Days/day61.md)
-- [✔️] 🤖 62 > [Testing, Tools & Alternatives](Days/day62.md)
 
-### Automate Configuration Management
+### Desarrollo de software
 
-- [✔️] 📜 63 > [The Big Picture: Configuration Management](Days/day63.md)
-- [✔️] 📜 64 > [Ansible: Getting Started](Days/day64.md)
-- [✔️] 📜 65 > [Ansible Playbooks](Days/day65.md)
-- [✔️] 📜 66 > [Ansible Playbooks Continued...](Days/day66.md)
-- [✔️] 📜 67 > [Using Roles & Deploying a Loadbalancer](Days/day67.md)
-- [✔️] 📜 68 > [Tags, Variables, Inventory & Database Server config](Days/day68.md)
-- [✔️] 📜 69 > [All other things Ansible - Automation Controller, AWX, Vault](Days/day69.md)
+- [✔️] 🏗️ 45 > [Python](Days/day45.md)
+- [✔️] 🏗️ 46 > [Bash](Days/day46.md)
+- [✔️] 🏗️ 47 > [Versión Control](Days/day47.md)
 
-### Create CI/CD Pipelines 
 
-- [✔️] 🔄 70 > [The Big Picture: CI/CD Pipelines](Days/day70.md)
+
+### Webservers
+
+
+- [✔️] 🏗️ 48 > [Conceptos](Days/day48.md)
+- [✔️] ☸ 49 > [NGINX](Days/day49.md)
+- [✔️] ☸ 50 > [HAProxy](Days/day50.md)
+- [✔️] ☸ 51 > [Apache](Days/day51.md)
+- [✔️] ☸ 52 > [IIS](Days/day52.md)
+
+
+### Monitoreo
+
+- [✔️] ☸ 53 > [ELK](Days/day53.md)
+
+### Bases de datos
+
+- [✔️] ☸ 54 > [MySQL](Days/day54.md)
+- [✔️] ☸ 55 > [PostgreSQL](Days/day55.md)
+- [✔️] 🤖 56 > [Clientes ](Days/day56.md)
+
+### Sistemas Operativos 
+
+
+
+- [✔️] 🤖 57 > [Linux ](Days/day57.md)
+- [✔️] 🤖 58 > [Linux ](Days/day58.md)
+- [✔️] 🤖 59 > [Linux ](Days/day59.md)
+- [✔️] 🤖 60 > [Linux ](Days/day60.md)
+- [✔️] 🤖 61 > [Linux ](Days/day61.md)
+- [✔️] 🤖 62 > [Linux ](Days/day62.md)
+- [✔️] 📜 63 > [Windows](Days/day63.md)
+- [✔️] 📜 64 > [Windows](Days/day64.md)
+
+Autenticacion
+
+
+- [✔️] 📜 65 > [Autenticacion](Days/day65.md)
+
+Virtualizacion
+
+- [✔️] 📜 66 > [Virtualizacion](Days/day66.md)
+
+Networking
+
+
+
+- [✔️] 📜 67 > [SSH](Days/day67.md)
+- [✔️] 📜 68 > [VPN](Days/day68.md)
+- [✔️] 📜 69 > [DNS](Days/day69.md)
+- [✔️] 🔄 70 > [Puertos de servicios comunes](Days/day70.md)
+
+
+
 - [✔️] 🔄 71 > [What is Jenkins?](Days/day71.md)
 - [✔️] 🔄 72 > [Getting hands on with Jenkins](Days/day72.md)
 - [✔️] 🔄 73 > [Building a Jenkins pipeline](Days/day73.md)
