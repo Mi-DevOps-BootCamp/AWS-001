@@ -1,101 +1,221 @@
----
-title: '#90DaysOfDevOps - An intro to Terraform - Day 57'
-published: false
-description: 90DaysOfDevOps - An intro to Terraform
-tags: 'devops, 90daysofdevops, learning'
-cover_image: null
-canonical_url: null
-id: 1048710
----
-## An intro to Terraform 
-
-"Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently" 
-
-The above quote is from HashiCorp, HashiCorp is the company behind Terraform. 
-
-"Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files."
-
-HashiCorp have a great resource in [HashiCorp Learn](https://learn.hashicorp.com/terraform?utm_source=terraform_io&utm_content=terraform_io_hero) which covers all of their products and gives some great walkthrough demos when you are trying to achieve something with Infrastructure as Code. 
-
-All cloud providers and on prem platforms generally give us access to management consoles which enables us to create our resources via a UI, generally these platforms also provide a CLI or API access to also create the same resources but with an API we have the ability to provision fast. 
-
-Infrastructure as Code allows us to hook into those APIs to deploy our resources in a desired state. 
-
-Other tools but not exclusive or exhaustive below. If you have other tools then please share via a PR.  
-
-| Cloud Specific                  | Cloud Agnostic | 
-| ------------------------------- | -------------- |
-| AWS CloudFormation              | Terraform      | 
-| Azure Resource Manager          | Pulumi         | 
-| Google Cloud Deployment Manager |                | 
-
-This is another reason why we are using Terraform, we want to be agnostic to the clouds and platforms that we wish to use for our demos but also in general. 
-
-## Terraform Overview 
-
-Terraform is a provisioning focused tool, Terraform is a CLI that gives the capabilities of being able to provision complex infrastructure environments. With Terraform we can define complex infrastructure requirements that exist locally or remote (cloud) Terraform not only enables us to build things initially but also to maintain and update those resources for their lifetime.  
-
-We are going to cover the high level here but for more details and loads of resources you can head to [terraform.io](https://www.terraform.io/)
-
-### Write
-
-Terraform allows us to create declaritive configuration files that will build our environments. The files are written using the HashiCorp Configuration Language (HCL) which allows for concise descriptions of resources using blocks, arguments, and expressions. We will of course be looking into these in detail in deploying VMs, Containers and within Kubernetes. 
+Administrar servicios con systemctl
 
 
-### Plan
+https://geekflare.com/es/manage-systemd-services-with-systemctl/
 
-The ability to check that the above configuration files are going to deploy what we want to see using specific functions of the terraform cli to be able to test that plan before deploying anything or changing anything. Remember Terraform is a continued tool for your infrastructure if you would like to change aspect of your infrastructure you should do that via terraform so that it is captured all in code. 
-
-### Apply
-
-Obviously once you are happy you can go ahead and apply this configuration to the many providers that are available within Terraform. You can see the large amount of providers available [here](https://registry.terraform.io/browse/providers)
-
-Another thing to mention is that there are also modules available, and this is similar to container images in that these modules have been created and shared in public so you do not have to create it again and again just re use the best practice of deploying a specific infrastructure resource the same way everywhere. You can find the modules available [here](https://registry.terraform.io/browse/modules)
+¿Cómo administrar los servicios de Systemd con Systemctl?
 
 
-The Terraform workflow looks like this: (*taken from the terraform site*)
+El administrador de sistemas y servicios predeterminado para la mayoría de las distribuciones de Linux ahora es systemd
+
+El proceso de la systemd proceso reemplaza el SysV init. Se ejecuta como el primer proceso después del arranque del kernel y es responsable de llevar el host Linux al estado en el que se puede utilizar. Es responsable de iniciar y administrar los servicios, montar sistemas de archivos, administrar el hardware, generar el indicador de inicio de sesión y mucho más.
+
+Un beneficio clave sobre SysV es que systemd inicia tantos servicios como sea posible en paralelo, acelerando así la proceso de inicio, y eso hace que aparezca la pantalla de inicio de sesión más rápido.
 
 
-![](Images/Day57_IAC3.png)
+Unidades
+Los elementos gestionados por systemd se denominan unidades. Los archivos de la unidad se encuentran en /lib/systemd/sistema.
 
-### Terraform vs Vagrant
+Unidades de servicio
+Para la gestión de servicios, las unidades de destino son unidades de servicio, que tienen archivos de unidad con un sufijo de .Servicio.
 
-During this challenge we have used Vagrant which happens to be another Hashicorp open source tool which concentrates on the development environments. 
+Gestión de servicios systemd
+El comando para administrar las unidades systemd es systemctl.
 
-- Vagrant is a tool focused for managing development environments
+Iniciar y detener servicios
+Para iniciar un servicio systemd, use el comando systemctl start:
 
-- Terraform is a tool for building infrastructure. 
+$ sudo systemctl start name.service
+Puede dejar el sufijo .service. Por ejemplo, para iniciar el servidor apache en Ubuntu:
 
-A great comparison of the two tools can be found here on the official [Hashicorp site](https://www.vagrantup.com/intro/vs/terraform)
+$ sudo systemctl start apache2
+Para detener un servicio en ejecución:
+
+$ sudo systemctl stop name.service
+
+Entonces, para detener el servidor apache en Ubuntu:
+
+$ sudo systemctl stop apache2
+Servicios de reinicio y recarga
+Para reiniciar un servicio en ejecución, use el comando de reinicio:
+
+$ sudo systemctl restart name.service
+Y donde se requiere el único archivo de configuración de recarga
+
+$ sudo systemctl reload name.service
+Habilitación y deshabilitación de servicios
+Si desea que un servicio se inicie automáticamente al iniciar el sistema, use el comando enable:
+
+$ sudo systemctl enable name.service
+
+Para desactivar un servicio para que no se inicie en el inicio del sistema:
+
+$ sudo systemctl disable name.service
+
+La desactivación no detiene un servicio en ejecución.
+
+Ver el estado del servicio
+
+Para ver información sobre un servicio:
+
+$ sudo systemctl status name.service
+Esto le mostrará el estado del servicio y las primeras líneas del archivo de registro. Entonces, mientras se ejecuta el servicio, la salida de
+
+sudo systemctl status apache2
+is
+
+apache2.service - The Apache HTTP Server
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+  Drop-In: /lib/systemd/system/apache2.service.d
+           └─apache2-systemd.conf
+   Active: active (running) since Tue 2020-05-19 22:11:36 UTC; 4 days ago
+  Process: 116002 ExecReload=/usr/sbin/apachectl graceful (code=exited, status=0/SUCCESS)
+Main PID: 104165 (apache2)
+    Tasks: 55 (limit: 1024)
+   CGroup: /system.slice/apache2.service
+           ├─104165 /usr/sbin/apache2 -k start
+           ├─116006 /usr/sbin/apache2 -k start
+           └─116007 /usr/sbin/apache2 -k start
 
 
-## Terraform Installation 
+May 19 22:11:36 ubuntu18 systemd[1]: Starting The Apache HTTP Server...
+May 19 22:11:36 ubuntu18 systemd[1]: Started The Apache HTTP Server.
+May 21 06:25:01 ubuntu18 systemd[1]: Reloading The Apache HTTP Server.
+May 21 06:25:01 ubuntu18 systemd[1]: Reloaded The Apache HTTP Server.
+May 22 06:25:01 ubuntu18 systemd[1]: Reloading The Apache HTTP Server.
+Para comprobar si un servicio está activo:
 
-There is really not much to the installation of Terraform. 
+$ sudo systemctl is-active name.service
 
-Terraform is cross platform and you can see below on my Linux machine we have several options to download and install the CLI 
+Entonces, mientras se ejecuta el servicio apache2, el resultado del comando systemctl is-active es:
 
-![](Images/Day57_IAC2.png)
+$ sudo systemctl is-active apache2
+active
+Para comprobar si un servicio está habilitado:
+
+$ sudo systemctl is-enabled name.service.
+
+Viewing System State
 
 
-Using `arkade` to install Terraform, arkade is a handy little tool for getting your required tools, apps and clis onto your system. A simple `arkade get terraform` will allow for an update of terraform if available or this same command will also install the Terraform CLI
+Todos los comandos que ha visto hasta ahora se utilizan para administrar un solo servicio. Cuando desee una descripción general del estado del sistema, utilice el siguiente conjunto de comandos:
 
-![](Images/Day57_IAC1.png)
+Para ver todos los tipos de unidades
 
-We are going to get into more around HCL and then also start using Terraform to create some infrastructure resources in various different platforms. 
+$ sudo systemctl -t help
+Available unit types:
+service
+socket
+target
+device
+mount
+automount
+swap
+timer
+path
+slice
+scope
 
-## Resources 
-I have listed a lot of resources down below and I think this topic has been covered so many times out there, If you have additional resources be sure to raise a PR with your resources and I will be happy to review and add them to the list. 
 
-- [What is Infrastructure as Code? Difference of Infrastructure as Code Tools ](https://www.youtube.com/watch?v=POPP2WTJ8es)
-- [Terraform Tutorial | Terraform Course Overview 2021](https://www.youtube.com/watch?v=m3cKkYXl-8o)
-- [Terraform explained in 15 mins | Terraform Tutorial for Beginners ](https://www.youtube.com/watch?v=l5k1ai_GBDE)
-- [Terraform Course - From BEGINNER to PRO!](https://www.youtube.com/watch?v=7xngnjfIlK4&list=WL&index=141&t=16s)
-- [HashiCorp Terraform Associate Certification Course](https://www.youtube.com/watch?v=V4waklkBC38&list=WL&index=55&t=111s)
-- [Terraform Full Course for Beginners](https://www.youtube.com/watch?v=EJ3N-hhiWv0&list=WL&index=39&t=27s)
-- [KodeKloud -  Terraform for DevOps Beginners + Labs: Complete Step by Step Guide!](https://www.youtube.com/watch?v=YcJ9IeukJL8&list=WL&index=16&t=11s)
-- [Terraform Simple Projects](https://terraform.joshuajebaraj.com/)
-- [Terraform Tutorial - The Best Project Ideas](https://www.youtube.com/watch?v=oA-pPa0vfks)
-- [Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform)
+Para enumerar todas las unidades instaladas, use list-unit-files
+
+$ sudo systemctl list-unit-files
+UNIT FILE                              STATE          
+proc-sys-fs-binfmt_misc.automount      static         
+-.mount                                generated      
+boot-efi.mount                         generated      
+dev-hugepages.mount                    static         
+dev-mqueue.mount                       static         
+mnt.mount                              generated      
+proc-sys-fs-binfmt_misc.mount          static         
+sys-fs-fuse-connections.mount          static         
+sys-kernel-config.mount                static         
+sys-kernel-debug.mount                 static         
+acpid.path                             enabled        
+apport-autoreport.path                 enabled        
+systemd-ask-password-console.path      static         
+systemd-ask-password-plymouth.path     static         
+systemd-ask-password-wall.path         static         
+session-161.scope                      transient      
+accounts-daemon.service                enabled        
+La salida tiene solo dos columnas Archivo de unidad y Estado. El estado generalmente será habilitado, deshabilitado, estático o enmascarado.
+
+Estático: Esto significa que la unidad no se puede habilitar, realiza una acción única o es una dependencia de otra unidad y no se puede ejecutar por sí misma.
+
+Enmascarado: Una unidad listada como enmascarada significa que es completamente inestable, ya que está vinculada a / dev / null. A esto se le llama enmascarar la unidad. Esto evita que el servicio se inicie, manual o automáticamente.
+
+Lista de todos los servicios instalados
+
+El comando systemctl list-unit-files con -t o –type service filter muestra solo el estado de los servicios instalados.
+
+$ sudo systemctl list-unit-files -t service
+UNIT FILE                              STATE    
+accounts-daemon.service                enabled  
+acpid.service                          disabled 
+apache-htcacheclean.service            disabled 
+apache-htcacheclean@.service           disabled 
+apache2.service                        enabled  
+apache2@.service                       disabled 
+apparmor.service                       enabled  
+apport-autoreport.service              static   
+apport-forward@.service                static   
+apport.service                         generated
+apt-daily-upgrade.service              static   
+apt-daily.service                      static   
+atd.service                            enabled  
+autovt@.service                        enabled  
+blk-availability.service               enabled  
+bootlogd.service                       masked   
+bootlogs.service                       masked   
+
+
+Para ver todas las unidades de servicio activas, use list-units con -t service filter
+
+$ sudo systemctl list-units -t service
+
+
+UNIT                                 LOAD   ACTIVE SUB     DESCRIPTION                             
+  accounts-daemon.service              loaded active running Accounts Service                        
+  apache2.service                      loaded active running The Apache HTTP Server                  
+  apparmor.service                     loaded active exited  AppArmor initialization                 
+  apport.service                       loaded active exited  LSB: automatic crash report generation  
+  atd.service                          loaded active running Deferred execution scheduler            
+  blk-availability.service             loaded active exited  Availability of block devices           
+  cloud-config.service                 loaded active exited  Apply the settings specified in cloud-con
+  cloud-final.service                  loaded active exited  Execute cloud user/final scripts        
+  cloud-init-local.service             loaded active exited  Initial cloud-init job (pre-networking) 
+  cloud-init.service                   loaded active exited  Initial cloud-init job (metadata service 
+  console-setup.service                loaded active exited  Set console font and keymap             
+  cron.service                         loaded active running Regular background program processing dae
+  
+  
+  
+La salida tiene las siguientes columnas:
+
+
+UNIDAD: El nombre de la unidad de servicio systemd
+
+CARGA: Muestra si la definición de la unidad se leyó y cargó correctamente
+
+ACTIVE: Describe si la unidad está activa.
+
+SUB: Estado de activación de bajo nivel de la unidad, que proporciona información más detallada sobre la unidad. Esto variará según el tipo de unidad.
+
+DESCRIPCIÓN: Descripción de la unidad de servicio.
+
+Conclusión
+Espero que esto le dé una idea sobre el uso de systemctl para administrar servicios en Linux.
+
+
+
+
+
+
+
+#
+#
+#
+#
+#
 
 See you on [Day 58](day58.md)
