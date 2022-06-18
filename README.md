@@ -51,14 +51,6 @@ Este repositorio es usado como un documento de mi viaje a traves del Bootcamp
 - [✔️] ☁️ 32 > [5.	Como usar docker-compose](Days/day32.md)
 - [✔️] ☁️ 33 > [6.	Optimizacion](Days/day33.md)
 - [✔️] ☁️ 34 > [7.	Como funciona el docker multistage](Days/day34.md)
-
-
-
-
-
-
-### Use Git Effectively
-
 - [✔️] 📚 35 > [8.	Docker registry](Days/day35.md)
 - [✔️] 📚 36 > [Kubernetes  -  ](Days/day36.md)
 - [✔️] 📚 37 > [1.	Informacion general](Days/day37.md)
@@ -138,15 +130,17 @@ Networking
 
 
 
+
+
+//////////////////////////////////////
+
+
 - [✔️] 🔄 71 > [What is Jenkins?](Days/day71.md)
 - [✔️] 🔄 72 > [Getting hands on with Jenkins](Days/day72.md)
 - [✔️] 🔄 73 > [Building a Jenkins pipeline](Days/day73.md)
 - [✔️] 🔄 74 > [Hello World - Jenkinsfile App Pipeline](Days/day74.md)
 - [✔️] 🔄 75 > [GitHub Actions Overview](Days/day75.md)
 - [✔️] 🔄 76 > [ArgoCD Overview](Days/day76.md)
-
-### Monitoring, Log Management, and Data Visualisation
-
 - [✔️] 📈 77 > [The Big Picture: Monitoring](Days/day77.md)
 - [✔️] 📈 78 > [Hands-On Monitoring Tools](Days/day78.md)
 - [✔️] 📈 79 > [The Big Picture: Log Management](Days/day79.md)
@@ -154,9 +148,6 @@ Networking
 - [✔️] 📈 81 > [Fluentd & FluentBit](Days/day81.md)
 - [✔️] 📈 82 > [EFK Stack](Days/day82.md)
 - [✔️] 📈 83 > [Data Visualisation - Grafana](Days/day83.md)
-
-### Store & Protect Your Data
-
 - [✔️] 🗃️ 84 > [The Big Picture: Data Management](Days/day84.md)
 - [✔️] 🗃️ 85 > [Data Services](Days/day85.md)
 - [✔️] 🗃️ 86 > [Backup all the platforms](Days/day86.md)
@@ -165,15 +156,4 @@ Networking
 - [✔️] 🗃️ 89 > [Disaster Recovery](Days/day89.md)
 - [✔️] 🗃️ 90 > [Data & Application Mobility](Days/day90.md)
 
-## License
 
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
