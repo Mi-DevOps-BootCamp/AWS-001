@@ -17,6 +17,30 @@ Se ejecutan más cargas de trabajo de SAP, computación de alto rendimiento (HPC
 
 
 
+
+#
+#
+## Controlar el tráfico hacia los recursos mediante grupos de seguridad
+
+Un grupo de seguridad actúa como firewall virtual, lo que controla el tráfico al que se permite llegar y dejar los recursos a los que está asociado. Por ejemplo, después de asociar un grupo de seguridad a una instancia de EC2, controla el tráfico de entrada y salida de la instancia.
+
+Al crear una VPC, incluye un grupo de seguridad predeterminado. Puede crear grupos de seguridad adicionales para cada VPC. Puede asociar un grupo de seguridad solo a los recursos de la VPC para la que se creó.
+
+Para cada grupo de seguridad, puede agregar reglas que controlan el tráfico en función de los protocolos y números de puerto. Hay conjuntos de reglas independientes para el tráfico de entrada y el tráfico de salida.
+
+Puede configurar ACL de red con reglas similares a sus grupos de seguridad para añadir una capa de seguridad adicional a su VPC. Para obtener más información acerca de las diferencias entre los grupos de seguridad y las ACL de red, consulte Comparar grupos de seguridad y ACL de red.
+
+
+
+
+
+
+
+
+
+
+
+
 #
 #
 #
