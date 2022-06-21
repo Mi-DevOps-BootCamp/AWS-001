@@ -3,7 +3,7 @@
 
 #
 
-###Cómo funciona
+### Cómo funciona
 
 Amazon Elastic Block Store (Amazon EBS) es un servicio de almacenamiento en bloque fácil de usar, escalable y de alto rendimiento diseñado para Amazon Elastic Compute Cloud (Amazon EC2).
 
@@ -18,18 +18,18 @@ Amazon Elastic Block Store (Amazon EBS) es un servicio de almacenamiento en bloq
 
 
 # 1.	Que es "Block Storage" y sus casos de uso
-# 2.	Diferencia entre "Object Storage" y "Block Storage"
 
 
 ¿Qué es el  Object Storage?
 El almacenamiento de objetos (también conocido como almacenamiento basado en objetos Object-based storage) es un término general que se refiere a la forma en que las organizamos y trabajamos con unidades de almacenamiento, mismas que llamamos objetos. Cada objeto contiene tres cosas:
-
 Los datos en sí. Los datos pueden ser cualquier cosa que desee almacenar, desde una foto familiar hasta un manual de 400,000 páginas para ensamblar una aeronave.
 Una cantidad expansible de metadatos. Los metadatos están definidos por quien crea el almacenamiento de objetos; contiene información contextual sobre qué datos son, para qué se debe usar, su confidencialidad o cualquier otra cosa que sea relevante para la forma en que se utilizan los datos.
-Un identificador global único. El identificador es una dirección dada al objeto para que el objeto se encuentre sobre un sistema distribuido. De esta forma, es posible encontrar los datos sin tener que conocer la ubicación física de los datos (que podrían existir en diferentes partes de un centro de datos o en diferentes partes del mundo).
+Un identificador global único. El identificador es una dirección dada al objeto para que el objeto se encuentre sobre un sistema distribuido. De esta forma, es posible encontrar los datos sin tener que conocer la ubicación física de los datos (que podrían existir en diferentes partes de un centro de datos o en diferentes partes del mundo)
 
 
-ómo se diferencian el almacenamiento en bloque y el almacenamiento de objetos
+
+# 2.	Diferencia entre "Object Storage" y "Block Storage"
+
 
 ![Screenshot_10](https://user-images.githubusercontent.com/105083569/174704738-15ec4ef1-9295-4bc8-a77d-de442359936d.png)
 
@@ -41,7 +41,8 @@ Sin embargo, el almacenamiento de objetos generalmente no le proporciona la capa
 
 Otra diferencia clave es que el sistema operativo puede acceder directamente al almacenamiento de bloques como un volumen de unidad montado, mientras que el almacenamiento de objetos no puede hacerlo sin una degradación significativa del rendimiento. La compensación aquí es que, a diferencia del almacenamiento de objetos, la sobrecarga de administración de almacenamiento de almacenamiento en bloque (como la reasignación de volúmenes) es relativamente inexistente.
 
-¿Qué problemas resuelve el almacenamiento de objetos?
+## ¿Qué problemas resuelve el almacenamiento de objetos?
+
 El almacenamiento de objetos es ideal para resolver los crecientes problemas de crecimiento de datos. A medida que se generan más y más datos, los sistemas de almacenamiento deben crecer al mismo ritmo. ¿Qué sucede cuando intenta expandir un sistema de almacenamiento basado en bloques más allá de cien terabytes o más allá de varios petabytes? Puede encontrarse con problemas de durabilidad, grandes limitaciones con la infraestructura de almacenamiento que tiene actualmente, o con los gastos generales de administración que pueden llegar al techo.
 
 La solución de problemas de administración de aprovisionamiento presentada por la expansión del almacenamiento en esta escala es donde brilla el almacenamiento de objetos. Los elementos como el contenido web estático, la copia de seguridad de datos y los archivos son casos de uso fantásticos. Las arquitecturas de almacenamiento basadas en objetos se pueden escalar y administrar simplemente agregando nodos adicionales. La organización del espacio de nombre plano de los datos, en combinación con su funcionalidad de metadatos expandibles, facilita esta facilidad de uso.
@@ -49,7 +50,8 @@ La solución de problemas de administración de aprovisionamiento presentada por
 Otra ventaja de objetar el almacenamiento es su capacidad de respuesta a la necesidad de resiliencia a la vez que mitiga los costos. Los objetos permanecen protegidos almacenando múltiples copias de datos a través de un sistema distribuido; si uno o más nodos fallan, los datos aún pueden estar disponibles, en la mayoría de los casos, sin que la aplicación o el usuario final se vean afectados. (¿Tiempo de inactividad? ¿Qué tiempo de inactividad?) En la mayoría de los casos, se almacenan al menos tres copias de cada archivo. Esto resuelve problemas comunes que incluyen fallas en el disco, rotura de bit, servidor y fallas, y cortes de energía. Este diseño de almacenamiento distribuido para alta disponibilidad permite que se use hardware básico menos costoso porque la protección de datos está integrada en la arquitectura del objeto.
 
 
-
+#
+#
 # 4.	Como crear un volumen
 
 Puede crear un volumen de Amazon EBS y, a continuación, adjuntarlo a cualquier instancia de EC2 en la misma zona de disponibilidad. Si crea un volumen de EBS cifrado, solo puede adjuntarlo a los tipos de instancia admitidos. Para obtener más información, consulte Tipos de instancias admitidos.
@@ -59,23 +61,11 @@ Si va a crear un volumen para un escenario de almacenamiento de alto rendimiento
 Los volúmenes de EBS nuevos disponen de su máximo rendimiento en cuanto están disponibles y no es necesario inicializarlos (proceso que antes se denominaba precalentamiento). No obstante, debe inicializar los bloques de almacenamiento en los volúmenes creados a partir de instantáneas (extraídas de Amazon S3 y grabadas en el volumen) para poder obtener acceso al bloque. Esta acción preliminar lleva tiempo y puede provocar un aumento considerable de la latencia de una operación de E/S la primera vez que se obtiene acceso a cada bloque. El rendimiento del volumen se alcanza después de descargar todos los bloques y de escribirlos en el volumen. Para la mayoría de las aplicaciones, la amortización de este costo a lo largo de la vida útil del volumen es aceptable. Para evitar este impacto inicial en el rendimiento en un entorno de producción, puede forzar la inicialización inmediata de todo el volumen o habilitar la restauración rápida de instantáneas. Para obtener más información, consulte Inicializar de volúmenes de Amazon EBS.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#
+#
 #5.	Como sacar snapshots
 
-nstantáneas de Amazon EBS
+Instantáneas de Amazon EBS
 
 Puede hacer una copia de seguridad de los datos contenidos en los volúmenes de Amazon EBS en Amazon S3 tomando instantáneas de un momento dado. Las instantáneas son copias de seguridad incrementales, lo que significa que solo se guardan los bloques que han cambiado en el dispositivo después de la instantánea más reciente. Esto disminuye el tiempo necesario para crearlo y ahorra costos de almacenamiento, ya que no se duplican los datos. Cada instantánea contiene toda la información necesaria para restaurar los datos (del momento en que se tomó) en un volumen de EBS nuevo.
 
@@ -84,10 +74,8 @@ Cuando se crea un volumen de EBS basado en una instantánea, el nuevo volumen co
 Cuando se elimina una instantánea, solo se borran los datos que son únicos de dicha instantánea. Para obtener más información, consulte Eliminar una instantánea de Amazon EBS.
 
 
-
-
-
-
+#
+#
 
 # 6.	Clases de almacenamiento
 
