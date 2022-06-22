@@ -63,7 +63,7 @@ Los volúmenes de EBS nuevos disponen de su máximo rendimiento en cuanto están
 
 #
 #
-#5.	Como sacar snapshots
+# 5.	Como sacar snapshots
 
 Instantáneas de Amazon EBS
 
