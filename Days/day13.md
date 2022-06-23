@@ -2,7 +2,9 @@
 
 # [Desafio 1 AWS ]( https://misdiasdedevops.github.io/Fase-1/Days/AWS-Desafio-1.html)
 
-(https://MisDiasdeDevOps/Fase-1/blob/main/Days/PrueboA.html)
+(https://MisDiasdeDevOps/Fase-1/blob/main/Days/PrueboA.html) (
+
+https://github.com/MisDiasdeDevOps,github.io/Fase-1/blob/main/Days/PrueboA.html)
 
 #
 #
